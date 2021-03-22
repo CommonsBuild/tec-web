@@ -2,7 +2,7 @@
 title: Awesome kitties
 date: 2019-03-17T19:31:20.591Z
 title_mission: Mission
-section_mission: abc
+section_mission: This text was edited in Netlify CMS.
 title_defi: From DeFi to TeFi
 section_defi: abc
 ---
