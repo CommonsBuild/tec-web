@@ -13,10 +13,7 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Publish Date", name: "date", widget: "datetime" }
-          - { label: "Body", name: "body", widget: "markdown" }
-          - label: "Cats"
-            name: "cats"
-            widget: list
-            fields:
-              - { label: "Name", name: "name", widget: "string" }
-              - { label: "Description", name: "description", widget: "text" }
+          - { label: "Mission Title", name: "title_mission", widget: "string" }
+          - { label: "Mission", name: "section_mission", widget: "markdown" }
+          - { label: "DEFI Title", name: "defi_mission", widget: "string" }
+          - { label: "DEFI", name: "defi_mission", widget: "markdown" }
