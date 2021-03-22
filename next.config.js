@@ -7,4 +7,8 @@ module.exports = {
     });
     return cfg;
   },
+  images: {
+    loader: "imgix",
+    path: "/",
+  },
 };
