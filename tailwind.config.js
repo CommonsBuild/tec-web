@@ -7,6 +7,12 @@ module.exports = {
         "tec-yellow": "#DEFB48",
         "tec-blue": "#08187e",
       },
+      backgroundImage: (theme) => ({
+        "tec-image-1": "url('/images/TEC-header.png')",
+        "tec-image-2": "url('/images/Mission.png')",
+        "tec-image-3": "url('/images/Group.png')",
+        "tec-image-4": "url('/images/Text1.png')",
+      }),
     },
   },
   variants: {

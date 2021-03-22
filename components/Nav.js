@@ -17,7 +17,7 @@ const Nav = () => {
   };
 
   return (
-    <nav className="nav-bg">
+    <nav className="tec-bg-gradient-1">
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 py-4 sm:py-6 lg:py-8">
         <div className="relative flex items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -86,6 +86,7 @@ const Nav = () => {
               <div className="flex justify-end h-full items-center">
                 {navItems.map((item) => (
                   <a
+                    key={item[0]}
                     href={item[1]}
                     className="bai-jamjuree font-semibold uppercase text-white hover:text-tec-yellow px-3 py-2 text-base"
                   >
@@ -114,6 +115,7 @@ const Nav = () => {
           <div className="px-2 pt-2 pb-3 space-y-1">
             {navItems.map((item) => (
               <a
+                key={item[0]}
                 href={item[1]}
                 className="bai-jamjuree font-semibold uppercase text-white hover:text-tec-yellow  block px-3 py-2 rounded-md text-base"
               >
