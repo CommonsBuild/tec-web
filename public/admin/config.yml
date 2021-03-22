@@ -15,5 +15,5 @@ collections:
           - { label: "Publish Date", name: "date", widget: "datetime" }
           - { label: "Mission Title", name: "title_mission", widget: "string" }
           - { label: "Mission", name: "section_mission", widget: "markdown" }
-          - { label: "DEFI Title", name: "defi_mission", widget: "string" }
-          - { label: "DEFI", name: "defi_mission", widget: "markdown" }
+          - { label: "DEFI Title", name: "title_defi", widget: "string" }
+          - { label: "DEFI", name: "section_defi", widget: "markdown" }
