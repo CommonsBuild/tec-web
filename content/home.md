@@ -1,5 +1,5 @@
 ---
-title: Awesome kitties
+title: TEC
 date: 2019-03-17T19:31:20.591Z
 title_mission: Mission
 section_mission: This text was edited in Netlify CMS.
