@@ -18,8 +18,8 @@ const Nav = () => {
 
   return (
     <nav className="nav-bg">
-      <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 lg:py-6">
-        <div className="relative flex items-center justify-between h-16">
+      <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 py-4 sm:py-6 lg:py-8">
+        <div className="relative flex items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
             <button
               type="button"
@@ -64,16 +64,23 @@ const Nav = () => {
           </div>
           <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
             <div className="flex-shrink-0 flex items-center">
-              <img
-                className="block lg:hidden h-8 w-auto"
-                src="/images/TEC-Logo-Compact-Light.png"
-                alt="TEC"
-              />
-              <img
-                className="hidden lg:block h-12 w-auto"
-                src="/images/TEC-Logo-Full-Light.png"
-                alt="TEC"
-              />
+              <div className="block lg:hidden">
+                <Image
+                  className="pt-2"
+                  src="/images/TEC-Logo-Compact-Light.png"
+                  width="87"
+                  height="42"
+                  alt="TEC"
+                />
+              </div>
+              <div className="hidden lg:block">
+                <Image
+                  src="/images/TEC-Logo-Full-Light.png"
+                  width="220"
+                  height="60"
+                  alt="TEC"
+                />
+              </div>
             </div>
             <div className="hidden sm:block sm:ml-6 sm:w-full">
               <div className="flex justify-end h-full items-center">
