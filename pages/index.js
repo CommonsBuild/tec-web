@@ -17,8 +17,8 @@ export default class Home extends Component {
         <Navigation />
         <div className="w-full tec-bg-gradient-2 bai-jamjuree text-white">
           <div className="bg-tec-image-1 bg-no-repeat bg-right-top bg-contain pb-20 sm:pb-32">
-            <div className="container lg:max-w-6xl lg:mx-auto px-10 sm:px-15  text-2xl sm:text-3xl lg:text-4xl leading-normal">
-              <h1 className="tec-text-outline-blue uppercase break-words font-semibold text-5xl sm:text-7xl lg:text-8xl pt-10 sm:pt-20 pb-6 sm:pb-10">
+            <div className="container lg:max-w-6xl lg:mx-auto px-10 sm:px-15 text-xl sm:text-3xl lg:text-4xl leading-normal">
+              <h1 className="tec-text-outline-blue uppercase break-words font-semibold text-4xl sm:text-7xl lg:text-8xl pt-10 sm:pt-20 pb-6 sm:pb-10">
                 Token Engineering Commons
               </h1>
               <p>Sustainable & Ethical Design for Token Ecosystems </p>
