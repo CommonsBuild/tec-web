@@ -9,7 +9,7 @@ import Twitter from "../svg/Twitter.svg";
 
 const Footer = () => {
   return (
-    <div className="w-full px-10 text-lg sm:text-xl leading-normal pb-10 sm:pb-20">
+    <div className="w-full px-10 pb-10 text-lg leading-normal sm:text-xl sm:pb-20">
       <div className="pb-12 sm:pb-20 sm:pl-8">
         <Image
           className="inline-block"
@@ -18,18 +18,18 @@ const Footer = () => {
           height="50"
           alt="TEC"
         />
-        <div className="w-full sm:w-auto inline-block text-sm sm:text-base pt-6 sm:pt-0 sm:pl-14 text-gray-400">
+        <div className="inline-block w-full pt-6 text-sm text-gray-400 sm:w-auto sm:text-base sm:pt-0 sm:pl-14">
           Sustainable & Ethical Design for Token Ecosystems.
         </div>
       </div>
-      <div className="grid grid-flow-row grid-cols-3 sm:grid-cols-6 gap-4 w-full sm:max-w-3xl">
+      <div className="grid w-full grid-flow-row grid-cols-3 gap-4 sm:grid-cols-6 sm:max-w-3xl">
         <a
           href="https://discord.gg/VSD3fbCn"
           target="_blank"
           className="text-white hover:text-white"
         >
           <div className="text-sm text-center">
-            <Discord className="w-10 mx-auto pb-2" />
+            <Discord className="w-10 pb-2 mx-auto" />
             Discord
           </div>
         </a>
@@ -39,7 +39,7 @@ const Footer = () => {
           className="text-white hover:text-white"
         >
           <div className="text-sm text-center">
-            <Discourse className="w-10 mx-auto pb-2" />
+            <Discourse className="w-10 pb-2 mx-auto" />
             Forum
           </div>
         </a>
@@ -49,7 +49,7 @@ const Footer = () => {
           className="text-white hover:text-white"
         >
           <div className="text-sm text-center">
-            <Github className="w-10 mx-auto pb-2" />
+            <Github className="w-10 pb-2 mx-auto" />
             Github
           </div>
         </a>
@@ -59,7 +59,7 @@ const Footer = () => {
           className="text-white hover:text-white"
         >
           <div className="text-sm text-center">
-            <Medium className="w-10 mx-auto pb-2" />
+            <Medium className="w-10 pb-2 mx-auto" />
             Medium
           </div>
         </a>
@@ -69,7 +69,7 @@ const Footer = () => {
           className="text-white hover:text-white"
         >
           <div className="text-sm text-center">
-            <Youtube className="w-10 mx-auto pb-2" />
+            <Youtube className="w-10 pb-2 mx-auto" />
             Youtube
           </div>
         </a>
@@ -79,7 +79,7 @@ const Footer = () => {
           className="text-white hover:text-white"
         >
           <div className="text-sm text-center">
-            <Twitter className="w-10 mx-auto pb-2" />
+            <Twitter className="w-10 pb-2 mx-auto" />
             Twitter
           </div>
         </a>
