@@ -10,7 +10,7 @@ import Twitter from "../svg/Twitter.svg";
 const Footer = () => {
   return (
     <div className="w-full px-10 text-lg sm:text-xl leading-normal pb-10 sm:pb-20">
-      <div className="pb-12 sm:pb-20">
+      <div className="pb-12 sm:pb-20 sm:pl-8">
         <Image
           className="inline-block"
           src="/images/TEC-Logotype.png"
@@ -22,13 +22,13 @@ const Footer = () => {
           Sustainable & Ethical Design for Token Ecosystems.
         </div>
       </div>
-      <div className="grid grid-cols-3 sm:grid-cols-6 gap-4 max-w-3xl">
+      <div className="grid grid-flow-row grid-cols-3 sm:grid-cols-6 gap-4 w-full sm:max-w-3xl">
         <a
           href="https://discord.gg/VSD3fbCn"
           target="_blank"
           className="text-white hover:text-white"
         >
-          <div className="w-16 text-sm text-center">
+          <div className="text-sm text-center">
             <Discord className="w-10 mx-auto pb-2" />
             Discord
           </div>
@@ -38,7 +38,7 @@ const Footer = () => {
           target="_blank"
           className="text-white hover:text-white"
         >
-          <div className="w-16 text-sm text-center">
+          <div className="text-sm text-center">
             <Discourse className="w-10 mx-auto pb-2" />
             Forum
           </div>
@@ -48,7 +48,7 @@ const Footer = () => {
           target="_blank"
           className="text-white hover:text-white"
         >
-          <div className="w-16 text-sm text-center">
+          <div className="text-sm text-center">
             <Github className="w-10 mx-auto pb-2" />
             Github
           </div>
@@ -58,7 +58,7 @@ const Footer = () => {
           target="_blank"
           className="text-white hover:text-white"
         >
-          <div className="w-16 text-sm text-center">
+          <div className="text-sm text-center">
             <Medium className="w-10 mx-auto pb-2" />
             Medium
           </div>
@@ -68,7 +68,7 @@ const Footer = () => {
           target="_blank"
           className="text-white hover:text-white"
         >
-          <div className="w-16 text-sm text-center">
+          <div className="text-sm text-center">
             <Youtube className="w-10 mx-auto pb-2" />
             Youtube
           </div>
@@ -78,7 +78,7 @@ const Footer = () => {
           target="_blank"
           className="text-white hover:text-white"
         >
-          <div className="w-16 text-sm text-center">
+          <div className="text-sm text-center">
             <Twitter className="w-10 mx-auto pb-2" />
             Twitter
           </div>
