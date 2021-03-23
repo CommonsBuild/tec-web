@@ -17,7 +17,7 @@ export default class Home extends Component {
           <title>Sustainable & Ethical Design for Token Ecosystems</title>
           <meta
             name="title"
-            content="Sustainable & Ethical Design for Token Ecosystems"
+            content="Token Engineering Commons – Sustainable & Ethical Design for Token Ecosystems"
           />
           <meta
             name="description"
@@ -28,7 +28,7 @@ export default class Home extends Component {
           <meta property="og:url" content="https://tecommons.org" />
           <meta
             property="og:title"
-            content="Sustainable & Ethical Design for Token Ecosystems"
+            content="Token Engineering Commons – Sustainable & Ethical Design for Token Ecosystems"
           />
           <meta
             property="og:description"
@@ -43,7 +43,7 @@ export default class Home extends Component {
           <meta property="twitter:url" content="https://tecommons.org" />
           <meta
             property="twitter:title"
-            content="Sustainable & Ethical Design for Token Ecosystems"
+            content="Token Engineering Commons – Sustainable & Ethical Design for Token Ecosystems"
           />
           <meta
             property="twitter:description"
