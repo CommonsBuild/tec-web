@@ -13,7 +13,47 @@ export default class Home extends Component {
   render() {
     return (
       <>
-        <Head></Head>
+        <Head>
+          <title>Sustainable & Ethical Design for Token Ecosystems</title>
+          <meta
+            name="title"
+            content="Sustainable & Ethical Design for Token Ecosystems"
+          />
+          <meta
+            name="description"
+            content="Advancing the field of token engineering in a regenerative way. Stewarding the cultivation of resources to accelerate the creation of robustly engineered models, modular tools, standards and educational opportunities."
+          />
+
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://tecommons.org" />
+          <meta
+            property="og:title"
+            content="Sustainable & Ethical Design for Token Ecosystems"
+          />
+          <meta
+            property="og:description"
+            content="Advancing the field of token engineering in a regenerative way. Stewarding the cultivation of resources to accelerate the creation of robustly engineered models, modular tools, standards and educational opportunities."
+          />
+          <meta
+            property="og:image"
+            content="https://tecommons.org/images/Share.jpg"
+          />
+
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta property="twitter:url" content="https://tecommons.org" />
+          <meta
+            property="twitter:title"
+            content="Sustainable & Ethical Design for Token Ecosystems"
+          />
+          <meta
+            property="twitter:description"
+            content="Advancing the field of token engineering in a regenerative way. Stewarding the cultivation of resources to accelerate the creation of robustly engineered models, modular tools, standards and educational opportunities."
+          />
+          <meta
+            property="twitter:image"
+            content="https://tecommons.org/images/Share.jpg"
+          />
+        </Head>
         <Navigation />
         <div className="w-full tec-bg-gradient-2 bai-jamjuree text-white">
           <div className="bg-tec-image-1 bg-no-repeat bg-right-top bg-contain pb-20 sm:pb-32">
