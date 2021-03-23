@@ -7,6 +7,9 @@ module.exports = {
         "tec-yellow": "#DEFB48",
         "tec-blue": "#08187e",
       },
+      fontSize: {
+        scale: ["12vw", "12vw"],
+      },
       backgroundImage: (theme) => ({
         "tec-image-1": "url('/images/TEC-header.png')",
         "tec-image-2": "url('/images/Mission.png')",
