@@ -2,14 +2,14 @@ import React from "react";
 import Image from "next/image";
 
 const navItems = [
-  ["About", "#"],
-  ["Mission", "#"],
-  ["Community", "#"],
+  ["About", "#about"],
+  ["Mission", "#mission"],
+  ["Community", "#community"],
   ["Ecosystem", "#ecosystem"],
-  ["Forum", "#forum"],
+  ["Forum", "https://forum.tecommons.org/"],
 ];
 
-const Nav = () => {
+const Navigation = () => {
   const [open, setOpen] = React.useState(false);
 
   const toggleOpen = () => {
@@ -129,4 +129,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default Navigation;

@@ -17,6 +17,14 @@
   h2 {
     @apply text-xl sm:text-2xl lg:text-3xl pb-3 sm:pb-8;
   }
+
+  p {
+    @apply pb-1;
+  }
+
+  a {
+    @apply text-tec-yellow hover:text-tec-yellow;
+  }
 }
 
 @layer components {
@@ -50,10 +58,10 @@
     color: black;
   }
 
-  .tec-tengineering-list ol {
+  .tec-markdown ol {
     @apply list-decimal;
   }
-  .tec-tengineering-list li {
+  .tec-markdown li {
     @apply pb-5;
   }
 }

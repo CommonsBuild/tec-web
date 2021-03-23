@@ -23,6 +23,7 @@
   "devDependencies": {
     "@babel/core": "^7.13.10",
     "@babel/preset-react": "^7.12.13",
+    "@svgr/webpack": "^5.5.0",
     "autoprefixer": "^10.2.5",
     "frontmatter-markdown-loader": "^3.6.2",
     "postcss": "^8.2.8",
