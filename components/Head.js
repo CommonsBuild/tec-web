@@ -11,10 +11,7 @@ const HeadComponent = ({ title, description }) => {
       <meta property="og:url" content="https://tecommons.org" />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
-      <meta
-        property="og:image"
-        content="https://tecommons.org/images/Share.jpg"
-      />
+      <meta property="og:image" content="/images/Share.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://tecommons.org" />
