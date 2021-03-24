@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "NODE_OPTIONS='--inspect' next dev",
+    "netlify-dev": "netlify dev -c \"npm run dev\"",
     "build": "next build",
     "start": "next start",
     "export": "npm run build && next export"
@@ -13,8 +14,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@hubspot/api-client": "^3.4.1",
     "@tailwindcss/forms": "^0.2.1",
     "@types/react": "^17.0.1",
+    "lodash": "^4.17.21",
     "next": "^10.0.9",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -26,7 +29,6 @@
     "@svgr/webpack": "^5.5.0",
     "autoprefixer": "^10.2.5",
     "frontmatter-markdown-loader": "^3.6.2",
-    "hubspot": "^2.3.14",
     "postcss": "^8.2.8",
     "tailwindcss": "^2.0.4"
   }
