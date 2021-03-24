@@ -14,6 +14,7 @@ export default class Home extends Component {
     return (
       <>
         <Head>
+          <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
           <title>Sustainable & Ethical Design for Token Ecosystems</title>
           <meta
             name="title"
@@ -75,7 +76,7 @@ export default class Home extends Component {
             <div className="container max-w-2xl px-10 sm:px-0 sm:flex sm:flex-row sm:mx-auto">
               <div className="text-right sm:w-1/2 sm:pr-16 lg:pr-24">
                 <a name="about" />
-                <h2 className="pb-8 text-lg leading-normal  sm:text-xl lg:text-2xl">
+                <h2 className="pb-8 text-lg leading-normal sm:text-xl lg:text-2xl">
                   To·ken En·gi·neer·ing{" "}
                   <span className="whitespace-nowrap">/ˈtōkən/</span>{" "}
                   <span className="whitespace-nowrap">/enjəˈniriNG/</span>
@@ -88,7 +89,7 @@ export default class Home extends Component {
 
             <div className="container max-w-2xl px-10 pb-20 sm:px-0 sm:flex sm:flex-row sm:mx-auto sm:pb-32">
               <div className="text-right sm:w-1/2 sm:pr-16 lg:pr-24">
-                <h2 className="pb-8 text-lg leading-normal  sm:text-xl lg:text-2xl">
+                <h2 className="pb-8 text-lg leading-normal sm:text-xl lg:text-2xl">
                   Com·mons <span className="whitespace-nowrap">/ˈkämənz/</span>
                 </h2>
               </div>
