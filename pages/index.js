@@ -56,7 +56,7 @@ export default class Home extends Component {
           />
         </Head>
         <Navigation />
-        <div className="w-full text-white tec-bg-gradient-2 bai-jamjuree">
+        <div className="w-full text-white tec-bg-gradient-2 font-bai-jamjuree">
           <div className="pb-20 bg-right-top bg-no-repeat bg-contain bg-tec-image-1 sm:pb-32">
             <div className="container px-10 text-xl leading-normal lg:max-w-6xl lg:mx-auto sm:px-15 sm:text-3xl lg:text-4xl">
               <h1 className="pt-10 pb-6 font-semibold uppercase break-words stroke-1 tec-text-outline-blue-1 sm:tec-text-outline-blue-2 text-scale lg:text-8xl sm:pt-20 sm:pb-10">
