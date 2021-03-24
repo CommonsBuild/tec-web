@@ -1,4 +1,3 @@
-import Head from "next/head";
 import { Component } from "react";
 
 import { attributes } from "../content/home.md";
@@ -8,53 +7,16 @@ import YellowButton from "../components/YellowButton";
 import Markdown from "../components/Markdown";
 import Footer from "../components/Footer";
 import Collaborators from "../components/Collaborators";
+import Head from "../components/Head";
 
 export default class Home extends Component {
   render() {
     return (
       <>
-        <Head>
-          <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-          <title>Sustainable & Ethical Design for Token Ecosystems</title>
-          <meta
-            name="title"
-            content="Token Engineering Commons – Sustainable & Ethical Design for Token Ecosystems"
-          />
-          <meta
-            name="description"
-            content="Advancing the field of token engineering in a regenerative way. Stewarding the cultivation of resources to accelerate the creation of robustly engineered models, modular tools, standards and educational opportunities."
-          />
-
-          <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://tecommons.org" />
-          <meta
-            property="og:title"
-            content="Token Engineering Commons – Sustainable & Ethical Design for Token Ecosystems"
-          />
-          <meta
-            property="og:description"
-            content="Advancing the field of token engineering in a regenerative way. Stewarding the cultivation of resources to accelerate the creation of robustly engineered models, modular tools, standards and educational opportunities."
-          />
-          <meta
-            property="og:image"
-            content="https://tecommons.org/images/Share.jpg"
-          />
-
-          <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="https://tecommons.org" />
-          <meta
-            property="twitter:title"
-            content="Token Engineering Commons – Sustainable & Ethical Design for Token Ecosystems"
-          />
-          <meta
-            property="twitter:description"
-            content="Advancing the field of token engineering in a regenerative way. Stewarding the cultivation of resources to accelerate the creation of robustly engineered models, modular tools, standards and educational opportunities."
-          />
-          <meta
-            property="twitter:image"
-            content="https://tecommons.org/images/Share.jpg"
-          />
-        </Head>
+        <Head
+          title="Token Engineering Commons – Sustainable & Ethical Design for Token Ecosystems"
+          description="Advancing the field of token engineering in a regenerative way. Stewarding the cultivation of resources to accelerate the creation of robustly engineered models, modular tools, standards and educational opportunities."
+        />
         <Navigation />
         <div className="w-full text-white tec-bg-gradient-2 font-bai-jamjuree">
           <div className="pb-20 bg-right-top bg-no-repeat bg-contain bg-tec-image-1 sm:pb-32">
