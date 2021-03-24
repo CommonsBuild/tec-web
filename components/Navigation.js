@@ -18,12 +18,12 @@ const Navigation = () => {
 
   return (
     <nav className="tec-bg-gradient-1">
-      <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 py-4 sm:py-6 lg:py-8">
+      <div className="px-2 py-4 mx-auto max-w-7xl sm:px-6 lg:px-8 sm:py-6 lg:py-8">
         <div className="relative flex items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
             <button
               type="button"
-              className="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-tec-blue hover:bg-tec-yellow focus:outline-none focus:ring-1 focus:ring-inset focus:ring-white"
+              className="inline-flex items-center justify-center p-2 text-white rounded-md hover:text-tec-blue hover:bg-tec-yellow focus:outline-none focus:ring-1 focus:ring-inset focus:ring-white"
               aria-controls="mobile-menu"
               aria-expanded="false"
               onClick={toggleOpen}
@@ -31,7 +31,7 @@ const Navigation = () => {
               <span className="sr-only">Open main menu</span>
 
               <svg
-                className="block h-6 w-6"
+                className="block w-6 h-6"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -46,7 +46,7 @@ const Navigation = () => {
                 />
               </svg>
               <svg
-                className="hidden h-6 w-6"
+                className="hidden w-6 h-6"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -62,8 +62,8 @@ const Navigation = () => {
               </svg>
             </button>
           </div>
-          <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-            <div className="flex-shrink-0 flex items-center">
+          <div className="flex items-center justify-center flex-1 sm:items-stretch sm:justify-start">
+            <div className="flex items-center flex-shrink-0">
               <div className="block lg:hidden">
                 <Image
                   className="pt-2"
@@ -83,12 +83,12 @@ const Navigation = () => {
               </div>
             </div>
             <div className="hidden sm:block sm:ml-6 sm:w-full">
-              <div className="flex justify-end h-full items-center">
+              <div className="flex items-center justify-end h-full">
                 {navItems.map((item) => (
                   <a
                     key={item[0]}
                     href={item[1]}
-                    className="bai-jamjuree font-semibold uppercase text-white hover:text-tec-yellow px-3 py-2 text-base"
+                    className="px-3 py-2 text-base font-semibold text-white uppercase bai-jamjuree hover:text-tec-yellow"
                   >
                     {item[0]}
                   </a>
@@ -117,7 +117,7 @@ const Navigation = () => {
               <a
                 key={item[0]}
                 href={item[1]}
-                className="bai-jamjuree font-semibold uppercase text-white hover:text-tec-yellow  block px-3 py-2 rounded-md text-base"
+                className="block px-3 py-2 text-base font-semibold text-white uppercase rounded-md bai-jamjuree hover:text-tec-yellow"
               >
                 {item[0]}
               </a>

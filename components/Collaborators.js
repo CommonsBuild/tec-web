@@ -22,7 +22,7 @@ const Collaborator = ({ name, url }) => {
 
 const Collaborators = () => {
   return (
-    <div className=" w-full sm:max-w-xl lg:max-w-3xl px-10 sm:px-0 sm:pl-10 lg:pl-32  text-lg sm:text-xl leading-normal pb-10 sm:pb-12 grid grid-cols-2 sm:grid-cols-3 gap-16">
+    <div className="grid w-full grid-cols-2 gap-16 px-10 pb-10 text-lg leading-normal  sm:max-w-xl lg:max-w-3xl sm:px-0 sm:pl-10 lg:pl-32 sm:text-xl sm:pb-12 sm:grid-cols-3">
       {collaborators.map((c) => (
         <Collaborator key={c[0]} name={c[0]} url={c[1]} />
       ))}

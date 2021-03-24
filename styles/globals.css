@@ -46,22 +46,37 @@
     );
   }
 
-  .tec-text-outline-blue {
-    -webkit-text-stroke: 2px #03b3ff;
-    color: transparent;
-  }
-
-  .tec-text-outline-unicorn {
-    background: -webkit-linear-gradient(top, #defb48, #03b3ff);
-    -webkit-background-clip: text;
-    -webkit-text-stroke: 4px transparent;
-    color: black;
-  }
-
   .tec-markdown ol {
     @apply list-decimal;
   }
   .tec-markdown li {
     @apply pb-5;
+  }
+}
+
+@layer utilities {
+  @variants responsive {
+    .tec-text-outline-blue-1 {
+      -webkit-text-stroke: 1px #03b3ff;
+      color: transparent;
+    }
+
+    .tec-text-outline-blue-2 {
+      -webkit-text-stroke: 2px #03b3ff;
+      color: transparent;
+    }
+
+    .tec-text-outline-unicorn-2 {
+      background: -webkit-linear-gradient(top, #defb48, #03b3ff);
+      -webkit-background-clip: text;
+      -webkit-text-stroke: 2px transparent;
+      color: black;
+    }
+    .tec-text-outline-unicorn-4 {
+      background: -webkit-linear-gradient(top, #defb48, #03b3ff);
+      -webkit-background-clip: text;
+      -webkit-text-stroke: 4px transparent;
+      color: black;
+    }
   }
 }
