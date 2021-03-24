@@ -117,7 +117,7 @@ export default class Home extends Component {
 
           <div className="pb-20 bg-right-top bg-no-repeat bg-contain bg-tec-image-5 sm:pb-32">
             <div className="pb-20 bg-right-top bg-no-repeat bg-auto bg-tec-image-6 sm:pb-32">
-              <div className="container w-full max-w-3xl px-10 text-2xl leading-normal text-center sm:mx-auto sm:px-0 sm:text-xl">
+              <div className="container w-full max-w-3xl px-10 text-2xl leading-normal text-center sm:mx-auto sm:text-xl">
                 <h1 className="pb-6 text-5xl font-semibold uppercase break-words tec-text-outline-unicorn-2 sm:tec-text-outline-unicorn-4 sm:text-8xl sm:pb-10">
                   {attributes.defiHeader}
                 </h1>
@@ -142,7 +142,7 @@ export default class Home extends Component {
           </div>
 
           <div className="pb-20 bg-right-top bg-no-repeat bg-contain bg-tec-image-7 sm:pb-32">
-            <div className="container w-full px-10 text-lg leading-normal sm:max-w-lg lg:max-w-xl sm:px-0 sm:pl-10 lg:pl-32 sm:text-xl">
+            <div className="container w-full px-10 text-lg leading-normal sm:max-w-lg lg:max-w-4xl lg:mx-auto sm:pl-10 lg:pr-72 sm:text-xl">
               <a name="community" />
               <h1 className="pb-6 text-4xl font-semibold uppercase break-words tec-text-outline-unicorn-2 sm:tec-text-outline-unicorn-4 sm:text-7xl sm:pb-10">
                 {attributes.communityHeader}
@@ -156,7 +156,7 @@ export default class Home extends Component {
           </div>
 
           <div className="bg-right-top bg-no-repeat bg-cover bg-tec-image-8">
-            <div className="container w-full px-10 pb-20 text-lg leading-normal sm:max-w-lg lg:max-w-2xl sm:px-0 sm:pl-10 lg:pl-32 sm:text-xl sm:pb-32">
+            <div className="container w-full px-10 pb-20 text-lg leading-normal sm:max-w-lg lg:max-w-4xl lg:mx-auto sm:pl-10 lg:pr-72 sm:text-xl sm:pb-24">
               <a name="ecosystem" />
               <h1 className="pb-6 text-4xl font-semibold uppercase break-words tec-text-outline-blue-1 sm:tec-text-outline-blue-2 sm:text-7xl sm:pb-10">
                 Ecosystem
@@ -166,7 +166,7 @@ export default class Home extends Component {
 
             <Collaborators />
 
-            <div className="px-10 pb-20 sm:px-0 sm:pl-10 lg:pl-32 sm:pb-32">
+            <div className="px-10 pb-20 sm:px-0 sm:pl-10 lg:mx-auto lg:max-w-4xl sm:pb-20">
               <YellowButton
                 text="Join The Ecosystem"
                 url="https://forum.tecommons.org/"
