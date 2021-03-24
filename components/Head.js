@@ -11,13 +11,19 @@ const HeadComponent = ({ title, description }) => {
       <meta property="og:url" content="https://tecommons.org" />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
-      <meta property="og:image" content="/images/Share.jpg" />
+      <meta
+        property="og:image"
+        content="https://tec-web.netlify.app/images/Share.jpg"
+      />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://tecommons.org" />
       <meta property="twitter:title" content={title} />
       <meta property="twitter:description" content={description} />
-      <meta property="twitter:image" content="/images/Share.jpg" />
+      <meta
+        property="twitter:image"
+        content="https://tec-web.netlify.app/images/Share.jpg"
+      />
       <link
         rel="apple-touch-icon"
         sizes="180x180"
