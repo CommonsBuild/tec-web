@@ -3,11 +3,18 @@
 @tailwind utilities;
 
 @layer base {
-  @import "~@fontsource/bai-jamjuree/latin-400.css";
-  @import "~@fontsource/bai-jamjuree/latin-600.css";
-
-  .bai-jamjuree {
+  @font-face {
     font-family: "Bai Jamjuree";
+    font-weight: 400;
+    src: url("/fonts/bai-jamjuree-latin-400-normal.woff2") format("woff2"),
+      url("/fonts/bai-jamjuree-latin-400-normal.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Bai Jamjuree";
+    font-weight: 600;
+    src: url("/fonts/bai-jamjuree-latin-600-normal.woff2") format("woff2"),
+      url("/fonts/bai-jamjuree-latin-600-normal.woff") format("woff");
   }
 
   html {
@@ -15,7 +22,7 @@
   }
 
   h2 {
-    @apply text-xl sm:text-2xl lg:text-3xl pb-3 sm:pb-8;
+    @apply pb-3 text-xl sm:text-2xl lg:text-3xl sm:pb-8;
   }
 
   p {
