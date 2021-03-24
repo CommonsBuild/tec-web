@@ -11,7 +11,7 @@ const NewletterForm = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    const url = "https://tec-web.netlify.app/.netlify/functions/newsletter";
+    const url = "/.netlify/functions/newsletter";
     const requestOptions = {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -25,7 +25,6 @@ const NewletterForm = () => {
       .catch((error) => {
         setSubmitted(true);
         setSuccess(false);
-        console.log("Form submit error", error);
       });
   };
 
@@ -46,13 +45,13 @@ const NewletterForm = () => {
         <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row">
           <input
             type="email"
-            class="p-4 border-t mr-0 border-b border-l text-gray-300 border-white bg-gray-800 uppercase font-semibold flex-grow mb-5 sm:mb-0 sm:w-auto"
+            className="flex-grow p-4 mb-5 mr-0 font-semibold text-gray-300 uppercase bg-gray-800 border-t border-b border-l border-white sm:mb-0 sm:w-auto"
             placeholder="Your email address"
             onChange={handleEmailChange}
             value={email}
           />
           <button
-            class="px-8 bg-white text-gray-800 font-semibold p-4 uppercase"
+            className="p-4 px-8 font-semibold text-gray-800 uppercase bg-white"
             type="submit"
           >
             Subscribe
