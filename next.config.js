@@ -1,4 +1,7 @@
 module.exports = {
+  future: {
+    webpack5: true,
+  },
   webpack: (cfg) => {
     cfg.module.rules.push({
       test: /\.md$/,
