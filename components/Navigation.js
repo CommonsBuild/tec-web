@@ -1,6 +1,9 @@
 import React from "react";
 import Image from "next/image";
 
+import LogoFull from "../svg/TEC-Logo-Full-Light.svg";
+import LogoCompact from "../svg/TEC-Logo-Compact-Light.svg";
+
 const navItems = [
   ["About", "#about"],
   ["Mission", "#mission"],
@@ -65,21 +68,10 @@ const Navigation = () => {
           <div className="flex items-center justify-center flex-1 sm:items-stretch sm:justify-start">
             <div className="flex items-center flex-shrink-0">
               <div className="block lg:hidden">
-                <Image
-                  className="pt-2"
-                  src="/images/TEC-Logo-Compact-Light.png"
-                  width="87"
-                  height="42"
-                  alt="TEC"
-                />
+                <LogoCompact className="w-20" />
               </div>
               <div className="hidden lg:block">
-                <Image
-                  src="/images/TEC-Logo-Full-Light.png"
-                  width="220"
-                  height="60"
-                  alt="TEC"
-                />
+                <LogoFull className="w-52" />
               </div>
             </div>
             <div className="hidden sm:block sm:ml-6 sm:w-full">

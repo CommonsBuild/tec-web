@@ -7,20 +7,16 @@ import Medium from "../svg/Medium.svg";
 import Youtube from "../svg/Youtube.svg";
 import Twitter from "../svg/Twitter.svg";
 
+import LogoText from "../svg/TEC-Logo-Text-Light.svg";
+
 import NewsletterForm from "./NewsletterForm";
 
 const Footer = () => {
   return (
     <div className="px-2 py-4 mx-auto max-w-7xl sm:px-6 lg:px-8 sm:py-6 lg:py-8">
       <div className="pb-12 pl-4 ">
-        <Image
-          className="inline-block"
-          src="/images/TEC-Logotype.png"
-          width="111"
-          height="50"
-          alt="TEC"
-        />
-        <div className="inline-block w-full pt-6 text-sm text-gray-400 sm:w-auto sm:text-base sm:pt-0 sm:pl-14">
+        <LogoText className="inline-block w-28" />
+        <div className="inline-block w-full pt-6 text-sm text-gray-400 sm:w-auto sm:text-base sm:pt-0 sm:pl-14 sm:align-bottom">
           Sustainable & Ethical Design for Token Ecosystems.
         </div>
       </div>
