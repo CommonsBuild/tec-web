@@ -4,18 +4,13 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/39380ba8-ae37-4a2b-81ef-511232f6e070/deploy-status)](https://app.netlify.com/sites/tec-web/deploys)
 
-### 👷‍♂️👷‍♀️ Under development 👷‍♂️👷‍♀️
+The Token Engineering Commons website lives at https://tecommons.org. It is hosted on Netlify and integrates with Netlify CMS for easy content updates.
 
-Branches `main`and `develop` are auto published to:
-
--   Main: [https://tec-web.netlify.app/](https://tec-web.netlify.app/)
+Branches `main`and `develop` are auto published:
+-   Main: [https://tecommons.org](https://tecommons.org)
 -   Develop: [https://develop--tec-web.netlify.app/](https://develop--tec-web.netlify.app/)
 
 ---
-
-This website will be released at https://tecommons.org.
-
-It is hosted on Netlify and integrates with Netlify CMS for easy content updates.
 
 ## Edit content
 
