@@ -25,6 +25,7 @@ const Footer = () => {
           <a
             href="https://discord.gg/VSD3fbCn"
             target="_blank"
+            rel="noreferrer"
             className="text-white hover:text-white"
           >
             <div className="text-sm text-center">
@@ -35,6 +36,7 @@ const Footer = () => {
           <a
             href="https://forum.tecommons.org/"
             target="_blank"
+            rel="noreferrer"
             className="text-white hover:text-white"
           >
             <div className="text-sm text-center">
@@ -45,6 +47,7 @@ const Footer = () => {
           <a
             href="https://github.com/TECommons/"
             target="_blank"
+            rel="noreferrer"
             className="text-white hover:text-white"
           >
             <div className="text-sm text-center">
@@ -55,6 +58,7 @@ const Footer = () => {
           <a
             href="https://medium.com/@tecommons"
             target="_blank"
+            rel="noreferrer"
             className="text-white hover:text-white"
           >
             <div className="text-sm text-center">
@@ -65,6 +69,7 @@ const Footer = () => {
           <a
             href="https://www.youtube.com/channel/UCagCOhMqMNU29rWx259-tcg/featured"
             target="_blank"
+            rel="noreferrer"
             className="text-white hover:text-white"
           >
             <div className="text-sm text-center">
@@ -75,6 +80,7 @@ const Footer = () => {
           <a
             href="https://twitter.com/tecmns"
             target="_blank"
+            rel="noreferrer"
             className="text-white hover:text-white"
           >
             <div className="text-sm text-center">

@@ -5,6 +5,7 @@ const collaborators = [
   ["Block Science", "block.science"],
   ["cadCAD", "cadcad.org"],
   ["1Hive", "1hive.org"],
+  ["Freelio", "freel.io"],
 ];
 
 const Collaborator = ({ name, url }) => {
@@ -12,7 +13,7 @@ const Collaborator = ({ name, url }) => {
     <div>
       <div>{name}</div>
       <div>
-        <a href={`https://${url}`} target="_blank">
+        <a href={`https://${url}`} target="_blank" rel="noreferrer">
           {url}
         </a>
       </div>
