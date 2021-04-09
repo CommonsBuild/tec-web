@@ -13,7 +13,7 @@ const Collaborator = ({ name, url }) => {
     <div>
       <div>{name}</div>
       <div>
-        <a href={`https://${url}`} target="_blank">
+        <a href={`https://${url}`} target="_blank" rel="noreferrer">
           {url}
         </a>
       </div>
