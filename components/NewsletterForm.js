@@ -47,6 +47,7 @@ const NewletterForm = () => {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email }),
     };
+    setLoading(true);
     fetch(url, requestOptions)
       .then((response) => {
         if (response.status !== 200) {
