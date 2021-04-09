@@ -5,6 +5,7 @@ const collaborators = [
   ["Block Science", "block.science"],
   ["cadCAD", "cadcad.org"],
   ["1Hive", "1hive.org"],
+  ["Freelio", "freel.io"],
 ];
 
 const Collaborator = ({ name, url }) => {
