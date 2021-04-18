@@ -1,14 +1,15 @@
 import React from "react";
 import { useRouter } from "next/router";
+import Link from "next/link";
 
 import LogoFull from "../svg/TEC-Logo-Full-Light.svg";
 import LogoCompact from "../svg/TEC-Logo-Compact-Light.svg";
 
 const navItems = [
-  ["About", "#about"],
-  ["Mission", "#mission"],
-  ["Community", "#community"],
-  ["Ecosystem", "#ecosystem"],
+  ["About", "/#about"],
+  ["Mission", "/#mission"],
+  ["Community", "/#community"],
+  ["Ecosystem", "/#ecosystem"],
   ["Forum", "https://forum.tecommons.org/"],
 ];
 
@@ -82,13 +83,14 @@ const Navigation = () => {
             <div className="hidden sm:block sm:ml-6 sm:w-full">
               <div className="flex items-center justify-end h-full">
                 {navItems.map((item) => (
-                  <a
-                    key={item[0]}
-                    href={item[1]}
-                    className="px-3 py-2 text-base font-semibold text-white uppercase bai-jamjuree hover:text-tec-yellow"
-                  >
-                    {item[0]}
-                  </a>
+                  <Link href={item[1]}>
+                    <a
+                      key={item[0]}
+                      className="px-3 py-2 text-base font-semibold text-white uppercase bai-jamjuree hover:text-tec-yellow"
+                    >
+                      {item[0]}
+                    </a>
+                  </Link>
                 ))}
               </div>
             </div>
@@ -109,13 +111,14 @@ const Navigation = () => {
         <div className="sm:hidden" id="mobile-menu">
           <div className="px-2 pt-2 pb-3 space-y-1">
             {navItems.map((item) => (
-              <a
-                key={item[0]}
-                href={item[1]}
-                className="block px-3 py-2 text-base font-semibold text-white uppercase rounded-md bai-jamjuree hover:text-tec-yellow"
-              >
-                {item[0]}
-              </a>
+              <Link href={item[1]}>
+                <a
+                  key={item[0]}
+                  className="block px-3 py-2 text-base font-semibold text-white uppercase rounded-md bai-jamjuree hover:text-tec-yellow"
+                >
+                  {item[0]}
+                </a>
+              </Link>
             ))}
           </div>
         </div>
