@@ -20,7 +20,7 @@ export default class Index extends Component {
     return (
       <>
         <Head
-          title="Token Engineering Commons – Sustainable & Ethical Design for Token Ecosystems"
+          title="Join the Token Engineering Commons!"
           description="Advancing the field of token engineering in a regenerative way. Stewarding the cultivation of resources to accelerate the creation of robustly engineered models, modular tools, standards and educational opportunities."
         />
         <Navigation />
