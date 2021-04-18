@@ -21,7 +21,7 @@ export default class Index extends Component {
         <div className="w-full leading-normal text-white tec-bg-gradient-2 font-bai-jamjuree">
           <div className="pb-20 bg-right-top bg-no-repeat bg-contain bg-tec-image-1 sm:pb-32">
             <div className="text-xl tec-container sm:text-3xl lg:text-4xl">
-              <h1 className="pt-10 pb-6 font-semibold uppercase break-words stroke-1 tec-text-outline-blue-1 sm:tec-text-outline-blue-2 text-scale lg:text-8xl sm:pt-20 sm:pb-10">
+              <h1 className="pt-10 pb-6 font-bold uppercase break-words tec-text-outline-blue-2 sm:tec-text-outline-blue-3 text-scale lg:text-9xl sm:pt-20 sm:pb-10">
                 <span className="whitespace-nowrap">Token</span>{" "}
                 <span className="whitespace-nowrap">Engineering</span>{" "}
                 <span className="whitespace-nowrap">Commons</span>

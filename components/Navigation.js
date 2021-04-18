@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import { useRouter } from "next/router";
 
 import LogoFull from "../svg/TEC-Logo-Full-Light.svg";
 import LogoCompact from "../svg/TEC-Logo-Compact-Light.svg";
@@ -14,6 +14,7 @@ const navItems = [
 
 const Navigation = () => {
   const [open, setOpen] = React.useState(false);
+  const router = useRouter();
 
   const toggleOpen = () => {
     setOpen(!open);
@@ -68,10 +69,14 @@ const Navigation = () => {
           <div className="flex items-center justify-center flex-1 sm:items-stretch sm:justify-start">
             <div className="flex items-center flex-shrink-0">
               <div className="block lg:hidden">
-                <LogoCompact className="w-20" />
+                <a href="/">
+                  <LogoCompact className="w-20" />
+                </a>
               </div>
               <div className="hidden lg:block">
-                <LogoFull className="w-52" />
+                <a href="/">
+                  <LogoFull className="w-52" />
+                </a>
               </div>
             </div>
             <div className="hidden sm:block sm:ml-6 sm:w-full">
@@ -92,9 +97,7 @@ const Navigation = () => {
             <button
               type="button"
               className="hidden lg:block bai-jamjuree font-semibold uppercase semibold bg-tec-yellow focus:outline-none text-black text-base py-2.5 px-5"
-              onClick={() =>
-                window.open("https://forum.tecommons.org/", "_blank")
-              }
+              onClick={() => router.push("/join")}
             >
               Get involved
             </button>

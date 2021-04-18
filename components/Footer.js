@@ -6,6 +6,7 @@ import Github from "../svg/Github.svg";
 import Medium from "../svg/Medium.svg";
 import Youtube from "../svg/Youtube.svg";
 import Twitter from "../svg/Twitter.svg";
+import Gitbook from "../svg/Gitbook.svg";
 
 import LogoText from "../svg/TEC-Logo-Text-Light.svg";
 
@@ -21,7 +22,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="md:flex md:items-center md:justify-between">
-        <div className="grid w-full grid-flow-row grid-cols-3 gap-4 pb-10 lg:grid-cols-6 md:max-w-xl md:pt-7 md:pr-10 md:pb-0">
+        <div className="grid w-full grid-flow-row grid-cols-3 gap-4 pb-10 lg:grid-cols-7 md:max-w-xl md:pt-7 md:pr-10 md:pb-0">
           <a
             href="https://discord.gg/VSD3fbCn"
             target="_blank"
@@ -45,7 +46,7 @@ const Footer = () => {
             </div>
           </a>
           <a
-            href="https://github.com/TECommons/"
+            href="https://github.com/CommonsBuild"
             target="_blank"
             rel="noreferrer"
             className="text-white hover:text-white"
@@ -86,6 +87,17 @@ const Footer = () => {
             <div className="text-sm text-center">
               <Twitter className="w-10 pb-2 mx-auto" />
               Twitter
+            </div>
+          </a>
+          <a
+            href="https://token-engineering-commons.gitbook.io"
+            target="_blank"
+            rel="noreferrer"
+            className="text-white hover:text-white"
+          >
+            <div className="text-sm text-center">
+              <Gitbook className="w-10 h-12 pb-2 mx-auto" />
+              Gitbook
             </div>
           </a>
         </div>
