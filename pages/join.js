@@ -39,7 +39,7 @@ export default class Index extends Component {
 
           <div className="grid grid-cols-1 gap-8 px-8 pb-10 mx-auto text-lg lg:gap-x-44 lg:gap-y-20 sm:max-w-4xl lg:max-w-5xl sm:text-xl sm:pb-28 sm:grid-cols-2">
             <div className="text-sm text-center">
-              <Discord className="w-32 mx-auto pb-7 sm:w-44" />
+              <Discord className="w-32 mx-auto pb-7 sm:h-48" />
               <div className="text-3xl font-bold uppercase sm:text-5xl tec-text-unicorn">
                 Discord
               </div>
@@ -55,7 +55,7 @@ export default class Index extends Component {
             </div>
 
             <div className="text-sm text-center">
-              <Discourse className="w-32 mx-auto pb-7 sm:w-44" />
+              <Discourse className="w-32 mx-auto pb-7 sm:h-48" />
               <div className="text-3xl font-bold uppercase sm:text-5xl tec-text-unicorn">
                 Forum
               </div>
@@ -71,7 +71,7 @@ export default class Index extends Component {
             </div>
 
             <div className="text-sm text-center">
-              <Gitbook className="w-32 mx-auto pb-7 sm:w-44 sm:h-48" />
+              <Gitbook className="w-32 mx-auto pb-7 sm:h-48" />
               <div className="text-3xl font-bold uppercase sm:text-5xl tec-text-unicorn">
                 Gitbook
               </div>
@@ -87,7 +87,7 @@ export default class Index extends Component {
             </div>
 
             <div className="text-sm text-center">
-              <Github className="w-32 mx-auto pb-7 sm:w-44" />
+              <Github className="w-32 mx-auto pb-7 sm:h-48" />
               <div className="text-3xl font-bold uppercase sm:text-5xl tec-text-unicorn">
                 Github
               </div>
@@ -96,14 +96,14 @@ export default class Index extends Component {
               </div>
               <div className="flex justify-center">
                 <YellowButton
-                  text="Got to Github"
+                  text="Go to Github"
                   url="https://github.com/CommonsBuild"
                 />
               </div>
             </div>
 
             <div className="text-sm text-center">
-              <Medium className="w-32 mx-auto pb-7 sm:w-40" />
+              <Medium className="w-32 mx-auto pb-7 sm:h-48" />
               <div className="text-3xl font-bold uppercase sm:text-5xl tec-text-unicorn">
                 Medium
               </div>
@@ -112,14 +112,14 @@ export default class Index extends Component {
               </div>
               <div className="flex justify-center">
                 <YellowButton
-                  text="Got to Medium"
+                  text="Go to Medium"
                   url="https://medium.com/@tecommons"
                 />
               </div>
             </div>
 
             <div className="text-sm text-center">
-              <Youtube className="w-32 mx-auto pb-7 sm:w-44" />
+              <Youtube className="w-32 mx-auto pb-7 sm:h-48" />
               <div className="text-3xl font-bold uppercase sm:text-5xl tec-text-unicorn">
                 Youtube
               </div>
@@ -128,7 +128,7 @@ export default class Index extends Component {
               </div>
               <div className="flex justify-center">
                 <YellowButton
-                  text="Got to YouTube"
+                  text="Go to YouTube"
                   url="https://www.youtube.com/channel/UCagCOhMqMNU29rWx259-tcg/featured"
                 />
               </div>
