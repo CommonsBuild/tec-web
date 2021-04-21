@@ -30,7 +30,7 @@ const Footer = () => {
             className="text-white hover:text-white"
           >
             <div className="text-sm text-center">
-              <Discord className="w-10 pb-2 mx-auto" />
+              <Discord className="w-10 h-12 pb-2 mx-auto" />
               Discord
             </div>
           </a>
@@ -41,7 +41,7 @@ const Footer = () => {
             className="text-white hover:text-white"
           >
             <div className="text-sm text-center">
-              <Discourse className="w-10 pb-2 mx-auto" />
+              <Discourse className="w-10 h-12 pb-2 mx-auto" />
               Forum
             </div>
           </a>
@@ -52,7 +52,7 @@ const Footer = () => {
             className="text-white hover:text-white"
           >
             <div className="text-sm text-center">
-              <Github className="w-10 pb-2 mx-auto" />
+              <Github className="w-10 h-12 pb-2 mx-auto" />
               Github
             </div>
           </a>
@@ -63,7 +63,7 @@ const Footer = () => {
             className="text-white hover:text-white"
           >
             <div className="text-sm text-center">
-              <Medium className="w-10 pb-2 mx-auto" />
+              <Medium className="w-10 h-12 pb-2 mx-auto" />
               Medium
             </div>
           </a>
@@ -74,7 +74,7 @@ const Footer = () => {
             className="text-white hover:text-white"
           >
             <div className="text-sm text-center">
-              <Youtube className="w-10 pb-2 mx-auto" />
+              <Youtube className="w-10 h-12 pb-2 mx-auto" />
               Youtube
             </div>
           </a>
@@ -85,7 +85,7 @@ const Footer = () => {
             className="text-white hover:text-white"
           >
             <div className="text-sm text-center">
-              <Twitter className="w-10 pb-2 mx-auto" />
+              <Twitter className="w-10 h-12 pb-2 mx-auto" />
               Twitter
             </div>
           </a>
@@ -97,7 +97,7 @@ const Footer = () => {
           >
             <div className="text-sm text-center">
               <Gitbook className="w-10 h-12 pb-2 mx-auto" />
-              Gitbook
+              Handbook
             </div>
           </a>
         </div>

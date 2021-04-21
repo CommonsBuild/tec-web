@@ -27,10 +27,7 @@ export default class Index extends Component {
                 <span className="whitespace-nowrap">Commons</span>
               </h1>
               <p>Sustainable & Ethical Design for Token Ecosystems </p>
-              <YellowButton
-                text="Build With Us"
-                url="https://forum.tecommons.org/"
-              />
+              <YellowButton text="Build With Us" url="/join" />
             </div>
           </div>
 
@@ -68,10 +65,7 @@ export default class Index extends Component {
                     {attributes.missionHeader}
                   </h1>
                   <Markdown>{attributes.missionBody}</Markdown>
-                  <YellowButton
-                    text="Join The Mission"
-                    url="https://forum.tecommons.org/"
-                  />
+                  <YellowButton text="Join The Mission" url="/join" />
                 </div>
               </div>
             </div>
@@ -95,10 +89,7 @@ export default class Index extends Component {
               </div>
               <div className="text-base sm:w-1/2 sm:text-lg sm:pl-8 lg:pl-16 sm:pr-10 lg:pr-0">
                 <Markdown>{attributes.commonsBody}</Markdown>
-                <YellowButton
-                  text="Build With Us"
-                  url="https://forum.tecommons.org/"
-                />
+                <YellowButton text="Build With Us" url="/join" />
               </div>
             </div>
           </div>
@@ -110,10 +101,7 @@ export default class Index extends Component {
                 {attributes.communityHeader}
               </h1>
               <Markdown>{attributes.communityBody}</Markdown>
-              <YellowButton
-                text="Join The Community"
-                url="https://forum.tecommons.org/"
-              />
+              <YellowButton text="Join The Community" url="/join" />
             </div>
           </div>
 
@@ -129,10 +117,7 @@ export default class Index extends Component {
             <Collaborators />
 
             <div className="pb-20 tec-container lg:max-w-4xl">
-              <YellowButton
-                text="Join The Ecosystem"
-                url="https://forum.tecommons.org/"
-              />
+              <YellowButton text="Join The Ecosystem" url="/join" />
             </div>
             <Footer />
           </div>

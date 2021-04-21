@@ -70,14 +70,18 @@ const Navigation = () => {
           <div className="flex items-center justify-center flex-1 sm:items-stretch sm:justify-start">
             <div className="flex items-center flex-shrink-0">
               <div className="block lg:hidden">
-                <a href="/">
-                  <LogoCompact className="w-20" />
-                </a>
+                <Link href="/">
+                  <a>
+                    <LogoCompact className="w-20" />
+                  </a>
+                </Link>
               </div>
               <div className="hidden lg:block">
-                <a href="/">
-                  <LogoFull className="w-52" />
-                </a>
+                <Link href="/">
+                  <a>
+                    <LogoFull className="w-52" />
+                  </a>
+                </Link>
               </div>
             </div>
             <div className="hidden sm:block sm:ml-6 sm:w-full">

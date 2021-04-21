@@ -37,7 +37,7 @@ export default class Index extends Component {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 gap-8 px-8 pb-10 mx-auto text-lg lg:gap-x-44 lg:gap-y-20 sm:max-w-4xl lg:max-w-5xl sm:text-xl sm:pb-28 sm:grid-cols-2">
+          <div className="grid max-w-md grid-cols-1 gap-8 px-8 pb-10 mx-auto text-lg lg:gap-x-44 lg:gap-y-20 sm:max-w-4xl lg:max-w-5xl sm:text-xl sm:pb-28 sm:grid-cols-2">
             <div className="text-sm text-center">
               <Discord className="w-32 mx-auto pb-7 sm:h-48" />
               <div className="text-3xl font-bold uppercase sm:text-5xl tec-text-unicorn">
@@ -49,7 +49,7 @@ export default class Index extends Component {
               <div className="flex justify-center">
                 <YellowButton
                   text="Join our Discord"
-                  url="https://discord.tecommons.org"
+                  url="https://tec-discord-oauth2.herokuapp.com/"
                 />
               </div>
             </div>
@@ -73,14 +73,14 @@ export default class Index extends Component {
             <div className="text-sm text-center">
               <Gitbook className="w-32 mx-auto pb-7 sm:h-48" />
               <div className="text-3xl font-bold uppercase sm:text-5xl tec-text-unicorn">
-                Gitbook
+                Handbook
               </div>
               <div className="pt-6 mb-4 text-lg sm:mb-0 sm:text-xl">
                 {attributes.gitbook}
               </div>
               <div className="flex justify-center">
                 <YellowButton
-                  text="Go to Gitbook"
+                  text="Go to Handbook"
                   url="https://token-engineering-commons.gitbook.io"
                 />
               </div>
