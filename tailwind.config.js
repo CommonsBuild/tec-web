@@ -12,6 +12,7 @@ module.exports = {
       },
       fontSize: {
         scale: ["12vw", "12vw"],
+        "9xl": ["7rem", 1],
       },
       backgroundImage: (theme) => ({
         "tec-image-1": "url('/images/TEC-header.svg')",

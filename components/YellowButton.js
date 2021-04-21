@@ -1,6 +1,14 @@
+import { useRouter } from "next/router";
+
 const YellowButton = ({ text, url }) => {
+  const router = useRouter();
+
   const handleClick = () => {
-    window.open(url, "_blank");
+    if (url.startsWith("http")) {
+      window.open(url, "_blank");
+      return;
+    }
+    router.push(url);
   };
 
   return (

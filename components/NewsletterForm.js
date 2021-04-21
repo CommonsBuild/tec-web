@@ -41,6 +41,7 @@ const NewletterForm = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     if (finished) return;
+    if (email.length === 0) return;
     const url = "/.netlify/functions/newsletter";
     const requestOptions = {
       method: "POST",

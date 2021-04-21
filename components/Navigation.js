@@ -1,19 +1,21 @@
 import React from "react";
-import Image from "next/image";
+import { useRouter } from "next/router";
+import Link from "next/link";
 
 import LogoFull from "../svg/TEC-Logo-Full-Light.svg";
 import LogoCompact from "../svg/TEC-Logo-Compact-Light.svg";
 
 const navItems = [
-  ["About", "#about"],
-  ["Mission", "#mission"],
-  ["Community", "#community"],
-  ["Ecosystem", "#ecosystem"],
+  ["About", "/#about"],
+  ["Mission", "/#mission"],
+  ["Community", "/#community"],
+  ["Ecosystem", "/#ecosystem"],
   ["Forum", "https://forum.tecommons.org/"],
 ];
 
 const Navigation = () => {
   const [open, setOpen] = React.useState(false);
+  const router = useRouter();
 
   const toggleOpen = () => {
     setOpen(!open);
@@ -68,22 +70,31 @@ const Navigation = () => {
           <div className="flex items-center justify-center flex-1 sm:items-stretch sm:justify-start">
             <div className="flex items-center flex-shrink-0">
               <div className="block lg:hidden">
-                <LogoCompact className="w-20" />
+                <Link href="/">
+                  <a>
+                    <LogoCompact className="w-20" />
+                  </a>
+                </Link>
               </div>
               <div className="hidden lg:block">
-                <LogoFull className="w-52" />
+                <Link href="/">
+                  <a>
+                    <LogoFull className="w-52" />
+                  </a>
+                </Link>
               </div>
             </div>
             <div className="hidden sm:block sm:ml-6 sm:w-full">
               <div className="flex items-center justify-end h-full">
                 {navItems.map((item) => (
-                  <a
-                    key={item[0]}
-                    href={item[1]}
-                    className="px-3 py-2 text-base font-semibold text-white uppercase bai-jamjuree hover:text-tec-yellow"
-                  >
-                    {item[0]}
-                  </a>
+                  <Link href={item[1]}>
+                    <a
+                      key={item[0]}
+                      className="px-3 py-2 text-base font-semibold text-white uppercase bai-jamjuree hover:text-tec-yellow"
+                    >
+                      {item[0]}
+                    </a>
+                  </Link>
                 ))}
               </div>
             </div>
@@ -92,9 +103,7 @@ const Navigation = () => {
             <button
               type="button"
               className="hidden lg:block bai-jamjuree font-semibold uppercase semibold bg-tec-yellow focus:outline-none text-black text-base py-2.5 px-5"
-              onClick={() =>
-                window.open("https://forum.tecommons.org/", "_blank")
-              }
+              onClick={() => router.push("/join")}
             >
               Get involved
             </button>
@@ -106,13 +115,14 @@ const Navigation = () => {
         <div className="sm:hidden" id="mobile-menu">
           <div className="px-2 pt-2 pb-3 space-y-1">
             {navItems.map((item) => (
-              <a
-                key={item[0]}
-                href={item[1]}
-                className="block px-3 py-2 text-base font-semibold text-white uppercase rounded-md bai-jamjuree hover:text-tec-yellow"
-              >
-                {item[0]}
-              </a>
+              <Link href={item[1]}>
+                <a
+                  key={item[0]}
+                  className="block px-3 py-2 text-base font-semibold text-white uppercase rounded-md bai-jamjuree hover:text-tec-yellow"
+                >
+                  {item[0]}
+                </a>
+              </Link>
             ))}
           </div>
         </div>
