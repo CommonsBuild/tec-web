@@ -21,7 +21,7 @@ exports.handler = async (event, context) => {
       contactObj
     );
 
-    console.log(`Created contact, email: ${body.email}`);
+    console.log(`Contact created, email: ${body.email}`);
 
     return {
       statusCode: 200,
