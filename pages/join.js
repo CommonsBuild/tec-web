@@ -49,7 +49,7 @@ export default class Index extends Component {
               <div className="flex justify-center">
                 <YellowButton
                   text="Join our Discord"
-                  url="https://tec-discord-oauth2.herokuapp.com/"
+                  url="https://discord.tecommons.org/"
                 />
               </div>
             </div>
