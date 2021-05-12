@@ -57,7 +57,7 @@ const Footer = () => {
             </div>
           </a>
           <a
-            href="https://medium.com/@tecommons"
+            href="https://medium.com/token-engineering-commons"
             target="_blank"
             rel="noreferrer"
             className="text-white hover:text-white"
