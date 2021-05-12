@@ -87,11 +87,8 @@ const Navigation = () => {
             <div className="hidden sm:block sm:ml-6 sm:w-full">
               <div className="flex items-center justify-end h-full">
                 {navItems.map((item) => (
-                  <Link href={item[1]}>
-                    <a
-                      key={item[0]}
-                      className="px-3 py-2 text-base font-semibold text-white uppercase bai-jamjuree hover:text-tec-yellow"
-                    >
+                  <Link href={item[1]} key={item[0]}>
+                    <a className="px-3 py-2 text-base font-semibold text-white uppercase bai-jamjuree hover:text-tec-yellow">
                       {item[0]}
                     </a>
                   </Link>
