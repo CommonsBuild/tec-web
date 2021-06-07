@@ -42,7 +42,7 @@ communityBody: Token Engineering is truly a transdisciplinary field, reflected
   by the amazing humans who are drawn to the Token Engineering Commons. We are
   engineers, scientists, researchers, educators, ambassadors, philosophers,
   AR/VR game designers, digital nomads, activists, artists, edgewalkers and
-  pioneers.
+  pioneers
 ---
 
 Page content not used.
