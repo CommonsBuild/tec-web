@@ -7,6 +7,7 @@
 The Token Engineering Commons website lives at https://tecommons.org. It is hosted on Netlify and integrates with Netlify CMS for easy content updates.
 
 Branches `main`and `develop` are auto published:
+
 -   Main: [https://tecommons.org](https://tecommons.org)
 -   Develop: [https://develop--tec-web.netlify.app/](https://develop--tec-web.netlify.app/)
 
@@ -14,11 +15,11 @@ Branches `main`and `develop` are auto published:
 
 ## Edit content
 
-Prerequisite: You need writte access to this repository.
+Prerequisite: You need write access to this repository.
 
 ### Option 1: Using Netlify CMS
 
-Access the CMS here: https://tec-web.netlify.app/admin
+Access the CMS here: https://tecommons.org/admin
 
 ### Option 2: Edit markdown directly
 
