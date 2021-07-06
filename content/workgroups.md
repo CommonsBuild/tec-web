@@ -1,16 +1,17 @@
 ---
 title: Working Groups
 date: 2019-03-17T19:31:20.591Z
-heroBody: "The Token Engineering Commons is divided into 11 Working Groups that  collaborate horizontally and represent the Cultural Build of the TEC, implemented to promote our Vision: advance token engineering through enabling the creation of ethical, safe, resilient and diverse economic systems to benefit societies around the world. 
+heroBody: >-
+    The Token Engineering Commons is divided into 11 Working Groups that  collaborate horizontally and represent the Cultural Build of the TEC, implemented to promote our Vision: advance token engineering through enabling the creation of ethical, safe, resilient and diverse economic systems to benefit societies around the world. 
 
 
-Working Groups are founded on the Nobel-Prize winning research of economist Elinor Ostrom, who developed 8 principles to effectively govern a commons through decentralization. 
+    Working Groups are founded on the Nobel-Prize winning research of economist Elinor Ostrom, who developed 8 principles to effectively govern a commons through decentralization. 
 
 
-Below are descriptions of each of the Working Groups and their contact information. 
+    Below are descriptions of each of the Working Groups and their contact information. 
 
 
-You can find more about our Mission, Vision and Values in our [Handbook](https://token-engineering-commons.gitbook.io/) and [Forum](https://forum.tecommons.org/)."
+    You can find more about our Mission, Vision and Values in our [Handbook](https://token-engineering-commons.gitbook.io/) and [Forum](https://forum.tecommons.org/).
 workgroups:
     - name: "Stewards"
       description: "In the Stewards Working Group the Community Stewards come together to coordinate workstreams, share experiences and reflect on what is going well and what can be done better in order to achieve the mission of the TEC and best serve our community."
