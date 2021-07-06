@@ -5,6 +5,12 @@ import useWindowSize from "../utils/useWindowSize";
 const Workgroup = ({ wg }) => {
   const windowSize = useWindowSize();
 
+  // Hack to workaround a weird error: "Prop `className` did not match."
+  const [componentMounted, setComponentMounted] = React.useState(false);
+  React.useEffect(() => {
+    setComponentMounted(true);
+  }, []);
+
   // No hover on small screens, iPads etc
   const hoverEnable = () => {
     if (windowSize.width >= 1024) return true;
@@ -20,6 +26,8 @@ const Workgroup = ({ wg }) => {
     return "text-5xl";
   };
 
+  if (!componentMounted) return null;
+
   return (
     <div className="relative text-white font-inter">
       <div
@@ -27,7 +35,7 @@ const Workgroup = ({ wg }) => {
           hoverEnable()
             ? "transition duration-500 ease-in-out opacity-0 hover:opacity-100"
             : ""
-        } flex flex-col justify-between h-48 w-full p-5 text-sm tec-text-bg-unicorn-2   tec-wg-desc`}
+        } flex flex-col justify-between h-60 lg:h-48 w-full p-5 text-sm tec-text-bg-unicorn-2   tec-wg-desc`}
       >
         <div className="mb-2">{wg.description}</div>
         <div className="flex flex-row items-center justify-between space-x-4">
