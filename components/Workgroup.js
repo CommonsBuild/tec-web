@@ -56,7 +56,7 @@ const Workgroup = ({ wg }) => {
           <div className="flex flex-row items-center justify-start h-full space-x-5 bg-black">
             <img src={wg.wgImg} className="inline-block w-24 h-24 ml-5" />
             <div
-              className={`${nameSize()} inline-block text-left uppercase tec-text-outline-unicorn-4`}
+              className={`${nameSize()} inline-block text-left uppercase tec-text-outline-unicorn-4 font-bai-jamjuree`}
             >
               {wg.name}
             </div>
