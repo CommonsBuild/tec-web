@@ -6,9 +6,8 @@ import LogoFull from "../svg/TEC-Logo-Full-Light.svg";
 import LogoCompact from "../svg/TEC-Logo-Compact-Light.svg";
 
 const navItems = [
-  ["About", "/#about"],
   ["Mission", "/#mission"],
-  ["Community", "/#community"],
+  ["Community", "/workgroups"],
   ["Ecosystem", "/#ecosystem"],
   ["Forum", "https://forum.tecommons.org/"],
 ];
@@ -88,7 +87,7 @@ const Navigation = () => {
               <div className="flex items-center justify-end h-full">
                 {navItems.map((item) => (
                   <Link href={item[1]} key={item[0]}>
-                    <a className="px-3 py-2 text-base font-semibold text-white uppercase bai-jamjuree hover:text-tec-yellow">
+                    <a className="px-3 py-2 text-sm font-semibold text-white uppercase md:text-base bai-jamjuree hover:text-tec-yellow">
                       {item[0]}
                     </a>
                   </Link>

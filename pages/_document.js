@@ -19,6 +19,20 @@ class MyDocument extends Document {
             crossOrigin=""
             type="font/woff2"
           />
+          <link
+            rel="preload"
+            href="/fonts/inter-v3-latin-200.woff2"
+            as="font"
+            crossOrigin=""
+            type="font/woff2"
+          />
+          <link
+            rel="preload"
+            href="/fonts/inter-v3-latin-regular.woff2"
+            as="font"
+            crossOrigin=""
+            type="font/woff2"
+          />
         </Head>
         <body>
           <Main />
