@@ -26,7 +26,7 @@ export default class Index extends Component {
             </h1>
           </div>
 
-          <div className="text-xl text-left text-white px-7 pb-7 tec-container sm:mx-auto font-extralight tec-wg-hero-body sm:text-2xl lg:text-3xl font-inter">
+          <div className="text-xl text-left text-white px-7 pb-7 tec-container sm:mx-auto font-extralight tec-wg-hero-body lg:text-2xl font-inter">
             <Markdown>{attributes.heroBody}</Markdown>
           </div>
 

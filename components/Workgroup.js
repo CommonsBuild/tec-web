@@ -27,7 +27,7 @@ const Workgroup = ({ wg }) => {
           hoverEnable()
             ? "transition duration-500 ease-in-out opacity-0 hover:opacity-100"
             : ""
-        } flex flex-col justify-between h-48 w-full p-5 text-sm tec-text-bg-unicorn-2 rounded-3xl  tec-wg-desc`}
+        } flex flex-col justify-between h-48 w-full p-5 text-sm tec-text-bg-unicorn-2   tec-wg-desc`}
       >
         <div className="mb-2">{wg.description}</div>
         <div className="flex flex-row items-center justify-between space-x-4">
