@@ -24,7 +24,7 @@ const Footer = () => {
       <div className="md:flex md:items-center md:justify-between">
         <div className="grid w-full grid-flow-row grid-cols-3 gap-4 pb-10 lg:grid-cols-7 md:max-w-xl md:pt-7 md:pr-10 md:pb-0">
           <a
-            href="https://discord.gg/VSD3fbCn"
+            href="https://discord.tecommons.org/"
             target="_blank"
             rel="noreferrer"
             className="text-white hover:text-white"

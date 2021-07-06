@@ -6,29 +6,58 @@
   @font-face {
     font-family: "Bai Jamjuree";
     font-weight: 400;
-    src: url("/fonts/bai-jamjuree-latin-400-normal.woff2") format("woff2");
+    src: url("/fonts/bai-jamjuree-latin-400-normal.woff2") format("woff2"),
+      url("/fonts/bai-jamjuree-latin-400-normal.woff") format("woff");
   }
 
   @font-face {
     font-family: "Bai Jamjuree";
     font-weight: 600;
-    src: url("/fonts/bai-jamjuree-latin-600-normal.woff2") format("woff2");
+    src: url("/fonts/bai-jamjuree-latin-600-normal.woff2") format("woff2"),
+      url("/fonts/bai-jamjuree-latin-600-normal.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 200;
+    src: local(""), url("/fonts/inter-v3-latin-200.woff2") format("woff2"),
+      url("/fonts/inter-v3-latin-200.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    src: local(""), url("/fonts/inter-v3-latin-300.woff2") format("woff2"),
+      url("/fonts/inter-v3-latin-300.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/inter-v3-latin-regular.woff2") format("woff2"),
+      url("/fonts/inter-v3-latin-regular.woff") format("woff");
   }
 
   html {
     background-color: #000;
   }
-
-  h2 {
-    @apply pb-3 text-xl sm:text-2xl lg:text-3xl sm:pb-8;
-  }
-
   p {
     @apply pb-1;
   }
 
   a {
     @apply text-tec-yellow hover:text-tec-yellow;
+  }
+
+  h1 {
+    @apply font-bai-jamjuree;
+  }
+
+  h2 {
+    @apply pb-3 text-xl sm:text-2xl lg:text-3xl sm:pb-8 font-bai-jamjuree;
   }
 }
 
@@ -61,6 +90,14 @@
   .tec-container {
     @apply w-full px-10 lg:px-0 lg:max-w-5xl lg:mx-auto;
   }
+
+  .tec-wg-hero-body p {
+    @apply pb-10;
+  }
+
+  .tec-wg-desc:hover ~ div {
+    @apply opacity-0;
+  }
 }
 
 @layer utilities {
@@ -78,6 +115,13 @@
       color: transparent;
     }
 
+    .tec-text-bg-unicorn-1 {
+      background: linear-gradient(-40deg, #defb48, #03b3ff);
+    }
+    .tec-text-bg-unicorn-2 {
+      background: linear-gradient(145deg, #000, #08187e, #defb48);
+    }
+
     .tec-text-outline-unicorn-2 {
       background: -webkit-linear-gradient(top, #defb48, #03b3ff);
       -webkit-background-clip: text;
@@ -90,7 +134,6 @@
       -webkit-text-stroke: 4px transparent;
       color: black;
     }
-
     .tec-text-unicorn {
       background: -webkit-linear-gradient(top, #defb48, #03b3ff);
       -webkit-background-clip: text;

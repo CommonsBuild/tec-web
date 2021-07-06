@@ -9,9 +9,10 @@ module.exports = {
       },
       fontFamily: {
         "bai-jamjuree": ['"Bai Jamjuree"', "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
       fontSize: {
-        scale: ["12vw", "12vw"],
+        "scale-12": ["12vw", "12vw"],
         "9xl": ["7rem", 1],
       },
       backgroundImage: (theme) => ({

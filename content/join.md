@@ -3,6 +3,8 @@ title: Join
 date: 2019-03-17T19:31:20.591Z
 heroSubHeader: Become part of the Token Engineering Commons
 heroBody: We are an ever growing international community of humans from a diversity of specializations. Coders, Engineers, Legal Experts, Game Designers, Writers, Testers, Activists - and more! Come one, come all! If you are passionate about the potential of Token Engineering here are the many ways you can join our thriving community.
+orientationHeader: Orientation First!
+orientationBody: Get oriented in the TEC, meet the community and ask questions. Do things like introduce yourself, share your interests, learn about the TEC and set up a 1-on-1.
 discord: Come hangout in our Discord, introduce yourself and see what is happening in our working groups, join conversations and jump into any of our weekly calls.
 forum: Participate in ongoing discussions and read up on the latest publications from working groups, submit ideas and view progress on the TEC’s many projects.
 gitbook: In the handbook we collect all material you need to understand, navigate and contribute with the Token Engineering Commons.

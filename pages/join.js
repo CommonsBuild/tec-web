@@ -24,7 +24,7 @@ export default class Index extends Component {
           description="Advancing the field of token engineering in a regenerative way. Stewarding the cultivation of resources to accelerate the creation of robustly engineered models, modular tools, standards and educational opportunities."
         />
         <Navigation />
-        <div className="w-full leading-normal text-white bg-right-top bg-no-repeat bg-contain bg-tec-image-7 font-bai-jamjuree">
+        <div className="w-full leading-normal text-white bg-right-top bg-no-repeat bg-contain bg-tec-image-7">
           <div className="pb-20 tec-bg-gradient-2 sm:pb-32 lg:pr-96">
             <div className="max-w-xl text-lg tec-container sm:mx-auto sm:text-xl">
               <h1 className="pt-10 pb-6 font-bold uppercase break-words tec-text-outline-blue-2 sm:tec-text-outline-blue-3 text-scale lg:text-9xl sm:pt-20 sm:pb-10">
@@ -34,13 +34,23 @@ export default class Index extends Component {
               </h1>
               <h2>{attributes.heroSubHeader}</h2>
               <p>{attributes.heroBody}</p>
+              <div className="mt-20 text-3xl font-bold uppercase sm:text-5xl tec-text-unicorn font-bai-jamjuree">
+                {attributes.orientationHeader}
+              </div>
+              <div className="pt-6 mb-4 text-lg sm:mb-0 sm:text-xl">
+                {attributes.orientationBody}
+              </div>
+              <YellowButton
+                text="Connect and Learn"
+                url="https://discord.tecommons.org/"
+              />
             </div>
           </div>
 
           <div className="grid max-w-md grid-cols-1 gap-8 px-8 pb-10 mx-auto text-lg lg:gap-x-44 lg:gap-y-20 sm:max-w-4xl lg:max-w-5xl sm:text-xl sm:pb-28 sm:grid-cols-2">
             <div className="text-sm text-center">
               <Discord className="w-32 mx-auto pb-7 sm:h-48" />
-              <div className="text-3xl font-bold uppercase sm:text-5xl tec-text-unicorn">
+              <div className="text-3xl font-bold uppercase sm:text-5xl tec-text-unicorn font-bai-jamjuree">
                 Discord
               </div>
               <div className="pt-6 mb-4 text-lg sm:mb-0 sm:text-xl">
@@ -56,7 +66,7 @@ export default class Index extends Component {
 
             <div className="text-sm text-center">
               <Discourse className="w-32 mx-auto pb-7 sm:h-48" />
-              <div className="text-3xl font-bold uppercase sm:text-5xl tec-text-unicorn">
+              <div className="text-3xl font-bold uppercase font-bai-jamjuree sm:text-5xl tec-text-unicorn">
                 Forum
               </div>
               <div className="pt-6 mb-4 text-lg sm:mb-0 sm:text-xl">
@@ -72,7 +82,7 @@ export default class Index extends Component {
 
             <div className="text-sm text-center">
               <Gitbook className="w-32 mx-auto pb-7 sm:h-48" />
-              <div className="text-3xl font-bold uppercase sm:text-5xl tec-text-unicorn">
+              <div className="text-3xl font-bold uppercase font-bai-jamjuree sm:text-5xl tec-text-unicorn">
                 Handbook
               </div>
               <div className="pt-6 mb-4 text-lg sm:mb-0 sm:text-xl">
@@ -88,7 +98,7 @@ export default class Index extends Component {
 
             <div className="text-sm text-center">
               <Github className="w-32 mx-auto pb-7 sm:h-48" />
-              <div className="text-3xl font-bold uppercase sm:text-5xl tec-text-unicorn">
+              <div className="text-3xl font-bold uppercase font-bai-jamjuree sm:text-5xl tec-text-unicorn">
                 Github
               </div>
               <div className="pt-6 mb-4 text-lg sm:mb-0 sm:text-xl">
@@ -104,7 +114,7 @@ export default class Index extends Component {
 
             <div className="text-sm text-center">
               <Medium className="w-32 mx-auto pb-7 sm:h-48" />
-              <div className="text-3xl font-bold uppercase sm:text-5xl tec-text-unicorn">
+              <div className="text-3xl font-bold uppercase font-bai-jamjuree sm:text-5xl tec-text-unicorn">
                 Medium
               </div>
               <div className="pt-6 mb-4 text-lg sm:mb-0 sm:text-xl">
@@ -120,7 +130,7 @@ export default class Index extends Component {
 
             <div className="text-sm text-center">
               <Youtube className="w-32 mx-auto pb-7 sm:h-48" />
-              <div className="text-3xl font-bold uppercase sm:text-5xl tec-text-unicorn">
+              <div className="text-3xl font-bold uppercase font-bai-jamjuree sm:text-5xl tec-text-unicorn">
                 Youtube
               </div>
               <div className="pt-6 mb-4 text-lg sm:mb-0 sm:text-xl">
@@ -140,7 +150,7 @@ export default class Index extends Component {
                 <GoogleCalendar className="w-32 pb-7 md:w-44" />
               </div>
               <div className="md:pl-16 lg:pl-28">
-                <div className="text-3xl font-bold text-center uppercase md:text-left sm:text-5xl tec-text-unicorn">
+                <div className="text-3xl font-bold text-center uppercase font-bai-jamjuree md:text-left sm:text-5xl tec-text-unicorn">
                   TEC Calendar Events
                 </div>
                 <div className="pt-6 mb-4 text-lg text-center sm:mb-0 sm:text-xl md:text-left">

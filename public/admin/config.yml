@@ -1,8 +1,9 @@
 backend:
   name: git-gateway
   branch: main
-media_folder: public/img
-public_folder: img
+media_folder: public/images
+public_folder: "/images"
+site_url: https://tecommons.org
 collections:
   - name: "pages"
     label: "Pages"
@@ -35,3 +36,46 @@ collections:
               name: "communityBody",
               widget: "markdown",
             }
+      - label: "Join"
+        name: "join"
+        file: "content/join.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - { label: "heroSubHeader", name: "heroSubHeader", widget: "string" }
+          - { label: "heroBody", name: "heroBody", widget: "string" }
+          - {
+              label: "orientationHeader",
+              name: "orientationHeader",
+              widget: "string",
+            }
+          - {
+              label: "orientationBody",
+              name: "orientationBody",
+              widget: "string",
+            }
+          - { label: "discord", name: "discord", widget: "string" }
+          - { label: "forum", name: "forum", widget: "string" }
+          - { label: "gitbook", name: "gitbook", widget: "string" }
+          - { label: "github", name: "github", widget: "string" }
+          - { label: "medium", name: "medium", widget: "string" }
+          - { label: "youtube", name: "youtube", widget: "string" }
+          - { label: "google", name: "google", widget: "string" }
+      - label: "Workgroups"
+        name: "workgroups"
+        file: "content/workgroups.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - { label: "heroBody", name: "heroBody", widget: "string" }
+          - label: "Workgroups"
+            name: "workgroups"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: string }
+              - { label: "description", name: "description", widget: string }
+              - { label: "wgImg", name: "wgImg", widget: string }
+              - { label: "steward", name: "steward", widget: string }
+              - { label: "stewardImg", name: "stewardImg", widget: string }
+              - { label: "calendarText", name: "calendarText", widget: string }
+              - { label: "calendarUrl", name: "calendarUrl", widget: string }
