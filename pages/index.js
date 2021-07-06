@@ -101,7 +101,7 @@ export default class Index extends Component {
                 {attributes.communityHeader}
               </h1>
               <Markdown>{attributes.communityBody}</Markdown>
-              <div className="flex justify-center">
+              <div className="flex flex-col justify-center sm:flex-row">
                 <div className="mr-6">
                   <YellowButton
                     text="Working Groups"
@@ -109,7 +109,9 @@ export default class Index extends Component {
                     outline
                   />
                 </div>
-                <YellowButton text="Join The Community" url="/join" />
+                <div>
+                  <YellowButton text="Join The Community" url="/join" />
+                </div>
               </div>
             </div>
           </div>
