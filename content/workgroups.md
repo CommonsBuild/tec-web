@@ -85,7 +85,7 @@ workgroups:
       calendarUrl: "https://calendar.google.com/calendar/embed?src=5mkep1ad1j860k6g7i7fr8plq0%40group.calendar.google.com"
     - name: "Labs"
       description: "The Labs is the central coordination sync point for the many TEC Labs events happening."
-      wgImg: "/images/Swarm.svg"
+      wgImg: "/images/Labs.svg"
       steward: "Ygg"
       stewardImg: "/images/Ygg.png"
       calendarText: "Weekly Sync: Fri., 6pm CET"
