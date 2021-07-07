@@ -1,6 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+@import "./custom-components.css";
+
+@import "tailwindcss/utilities";
+@import "./custom-utilities.css";
 
 @layer base {
   @font-face {
@@ -44,6 +48,7 @@
   html {
     background-color: #000;
   }
+
   p {
     @apply pb-1;
   }
@@ -58,86 +63,5 @@
 
   h2 {
     @apply pb-3 text-xl sm:text-2xl lg:text-3xl sm:pb-8 font-bai-jamjuree;
-  }
-}
-
-@layer components {
-  .tec-bg-gradient-1 {
-    background: rgb(38, 1, 193);
-    background: linear-gradient(
-      0deg,
-      rgba(24, 17, 131, 1) 0%,
-      rgba(34, 3, 174, 1) 100%
-    );
-  }
-
-  .tec-bg-gradient-2 {
-    background: rgb(24, 17, 131);
-    background: linear-gradient(
-      0deg,
-      rgba(24, 17, 131, 0) 90%,
-      rgba(24, 17, 131, 1) 100%
-    );
-  }
-
-  .tec-markdown ol {
-    @apply list-decimal;
-  }
-  .tec-markdown li {
-    @apply pb-5;
-  }
-
-  .tec-container {
-    @apply w-full px-10 lg:px-0 lg:max-w-5xl lg:mx-auto;
-  }
-
-  .tec-wg-hero-body p {
-    @apply pb-5 lg:pb-10;
-  }
-
-  .tec-wg-desc:hover ~ div {
-    @apply opacity-0;
-  }
-}
-
-@layer utilities {
-  @variants responsive {
-    .tec-text-outline-blue-1 {
-      -webkit-text-stroke: 1px #03b3ff;
-      color: transparent;
-    }
-    .tec-text-outline-blue-2 {
-      -webkit-text-stroke: 2px #03b3ff;
-      color: transparent;
-    }
-    .tec-text-outline-blue-3 {
-      -webkit-text-stroke: 3px #03b3ff;
-      color: transparent;
-    }
-
-    .tec-text-bg-unicorn-1 {
-      background: linear-gradient(-40deg, #defb48, #03b3ff);
-    }
-    .tec-text-bg-unicorn-2 {
-      background: linear-gradient(145deg, #000, #08187e, #defb48);
-    }
-
-    .tec-text-outline-unicorn-2 {
-      background: -webkit-linear-gradient(top, #defb48, #03b3ff);
-      -webkit-background-clip: text;
-      -webkit-text-stroke: 2px transparent;
-      color: black;
-    }
-    .tec-text-outline-unicorn-4 {
-      background: -webkit-linear-gradient(top, #defb48, #03b3ff);
-      -webkit-background-clip: text;
-      -webkit-text-stroke: 4px transparent;
-      color: black;
-    }
-    .tec-text-unicorn {
-      background: -webkit-linear-gradient(top, #defb48, #03b3ff);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
   }
 }

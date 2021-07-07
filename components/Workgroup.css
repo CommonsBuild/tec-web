@@ -1,0 +1,8 @@
+@layer components {
+  .tec-wg-hero-body p {
+    @apply pb-5 lg:pb-10;
+  }
+  .tec-wg-desc:hover ~ div {
+    @apply opacity-0;
+  }
+}

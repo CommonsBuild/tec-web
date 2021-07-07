@@ -1,0 +1,14 @@
+@import "../components/Workgroup.css";
+
+@layer components {
+  .tec-markdown ol {
+    @apply list-decimal;
+  }
+  .tec-markdown li {
+    @apply pb-5;
+  }
+
+  .tec-container {
+    @apply w-full px-10 lg:px-0 lg:max-w-5xl lg:mx-auto;
+  }
+}

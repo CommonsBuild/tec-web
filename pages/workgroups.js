@@ -18,7 +18,7 @@ export default class Index extends Component {
           description="Advancing the field of token engineering in a regenerative way. Stewarding the cultivation of resources to accelerate the creation of robustly engineered models, modular tools, standards and educational opportunities."
         />
         <Navigation />
-        <div className="w-full tec-bg-gradient-2">
+        <div className="w-full tec-body-bg-gradient">
           <div className="mx-auto text-center tec-container">
             <h1 className="pt-10 pb-6 font-bold uppercase break-words tec-text-outline-blue-2 sm:tec-text-outline-blue-3 text-scale-12 lg:text-8xl sm:pt-20 sm:pb-10 font-bai-jamjuree">
               <span className="whitespace-nowrap">Working</span>{" "}

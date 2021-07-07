@@ -19,7 +19,7 @@ const Workgroup = (props) => {
       />
       <Navigation />
       <div className="w-full leading-normal text-white bg-right-top bg-no-repeat bg-contain bg-tec-image-7 font-bai-jamjuree">
-        <div className="pb-20 tec-bg-gradient-2 sm:pb-32 lg:pr-96">
+        <div className="pb-20 tec-body-bg-gradient sm:pb-32 lg:pr-96">
           <div className="max-w-xl text-lg tec-container sm:mx-auto sm:text-xl">
             <h1 className="pt-10 pb-6 font-bold uppercase break-words tec-text-outline-blue-2 sm:tec-text-outline-blue-3 text-scale lg:text-9xl sm:pt-20 sm:pb-10">
               <span className="whitespace-nowrap">{title}</span>{" "}

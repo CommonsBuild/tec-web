@@ -21,7 +21,7 @@ const Navigation = () => {
   };
 
   return (
-    <nav className="tec-bg-gradient-1">
+    <nav className="tec-nav-bg-gradient">
       <div className="px-2 py-4 mx-auto max-w-7xl sm:px-6 lg:px-8 sm:py-6 lg:py-8">
         <div className="relative flex items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">

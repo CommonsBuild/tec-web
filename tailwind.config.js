@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         "tec-yellow": "#DEFB48",
         "tec-blue": "#08187e",
+        "tec-light-blue": "#03b3ff",
       },
       fontFamily: {
         "bai-jamjuree": ['"Bai Jamjuree"', "sans-serif"],
