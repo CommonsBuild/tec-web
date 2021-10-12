@@ -23,7 +23,7 @@ workgroups:
       well and what can be done better in order to achieve the mission of the
       TEC and best serve our community.
     wgImg: /images/Stewards.svg
-    steward: Tam
+    steward: Tamara
     stewardImg: /images/Tam.png
     calendarText: "Weekly Sync: Wed., 7pm CET"
     calendarUrl: https://calendar.google.com/calendar/embed?src=5mkep1ad1j860k6g7i7fr8plq0%40group.calendar.google.com
