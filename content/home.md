@@ -1,6 +1,6 @@
 ---
 title: TEC
-date: 2019-03-17T19:31:20.591Z
+date: 2021-10-12T10:48:29.646Z
 tengineeringBody: >-
   1. An emerging engineering discipline focused on holistic systems design and
   the theory, practice and tools used to design and verify tokenized ecosystems
