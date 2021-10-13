@@ -112,6 +112,16 @@ workgroups:
     stewardImg: /images/Ygg.png
     calendarText: "Weekly Sync: Fri., 6pm CET"
     calendarUrl: https://calendar.google.com/calendar/embed?src=5mkep1ad1j860k6g7i7fr8plq0%40group.calendar.google.com
+  - name: Communitas
+    wgImg: /images/Outreach.svg
+    steward: Eduardo
+    calendarText: "Weekly Sync: Mon., 6pm CET"
+    calendarUrl: https://calendar.google.com/event?action=TEMPLATE&tmeid=MDlxZmVoYzk5Zm80bnAzazNydWcyczYxN2RfMjAyMTEwMThUMTgwMDAwWiA1bWtlcDFhZDFqODYwazZnN2k3ZnI4cGxxMEBn&tmsrc=5mkep1ad1j860k6g7i7fr8plq0%40group.calendar.google.com&scp=ALL
+    description: "The goal of this WG is to build and strengthen our community. We
+      are focused on onboarding newcomers, promoting social events, building
+      relationships with token holders and outreach to value aligned DAOs and
+      organizations. "
+    stewardImg: /images/Eduardo.png
 ---
 
 Page content not used.
