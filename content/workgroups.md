@@ -121,7 +121,7 @@ workgroups:
       are focused on onboarding newcomers, promoting social events, building
       relationships with token holders and outreach to value aligned DAOs and
       organizations. "
-    stewardImg: /images/Eduardo.png
+    stewardImg: /images/Edu.png
 ---
 
 Page content not used.
