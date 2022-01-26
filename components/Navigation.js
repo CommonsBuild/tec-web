@@ -10,6 +10,7 @@ const navItems = [
   ["Community", "/workgroups"],
   ["Ecosystem", "/#ecosystem"],
   ["Forum", "https://forum.tecommons.org/"],
+  ["Get Involved", "/join"],
 ];
 
 const Navigation = () => {
@@ -99,9 +100,9 @@ const Navigation = () => {
             <button
               type="button"
               className="hidden lg:block bai-jamjuree font-semibold uppercase semibold bg-tec-yellow focus:outline-none text-black text-base py-2.5 px-5"
-              onClick={() => router.push("/join")}
+              onClick={() => router.push("https://convert.tecommons.org/")}
             >
-              Get involved
+              Buy $TEC
             </button>
           </div>
         </div>
