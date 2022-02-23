@@ -57,8 +57,8 @@ export default class Index extends Component {
               </div>
             </div>
 
-            <div className="bg-right-top bg-no-repeat bg-contain bg-tec-image-3">
-              <div className="bg-right-top bg-no-repeat bg-auto bg-tec-image-4">
+            <div className="bg-right-top bg-no-repeat bg-contain">
+              <div className="bg-right-top bg-no-repeat bg-auto">
                 <div className="max-w-xl text-lg tec-container sm:mx-auto sm:text-xl">
                   <a name="mission" />
                   <h1 className="pb-6 text-5xl font-semibold uppercase break-words tec-text-outline-unicorn-2 sm:tec-text-outline-unicorn-4 sm:text-8xl sm:pb-10">
@@ -66,6 +66,28 @@ export default class Index extends Component {
                   </h1>
                   <Markdown>{attributes.missionBody}</Markdown>
                   <YellowButton text="Join The Mission" url="/join" />
+                </div>
+              </div>
+            </div>
+            <div className="bg-right-top bg-no-repeat bg-contain">
+              <div className="bg-right-top bg-no-repeat bg-auto">
+                <div className="max-w-xl text-lg tec-container sm:mx-auto sm:text-xl">
+                  <a name="vision" />
+                  <h1 className="pb-6 text-5xl font-semibold uppercase break-words tec-text-outline-unicorn-2 sm:tec-text-outline-unicorn-4 sm:text-8xl sm:pb-10">
+                    {attributes.visionHeader}
+                  </h1>
+                  <Markdown>{attributes.visionBody}</Markdown>
+                </div>
+              </div>
+            </div>
+            <div className="bg-right-top bg-no-repeat bg-contain bg-tec-image-3">
+              <div className="bg-right-top bg-no-repeat bg-auto">
+                <div className="max-w-xl text-lg tec-container sm:mx-auto sm:text-xl">
+                  <a name="vision" />
+                  <h1 className="pb-6 text-5xl font-semibold uppercase break-words tec-text-outline-unicorn-2 sm:tec-text-outline-unicorn-4 sm:text-8xl sm:pb-10">
+                    {attributes.valuesHeader}
+                  </h1>
+                  <Markdown>{attributes.valuesBody}</Markdown>
                 </div>
               </div>
             </div>

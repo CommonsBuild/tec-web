@@ -16,10 +16,22 @@ commonsBody: Resources that groups of people (communities, organizations) create
   Ostrom)
 missionHeader: Mission
 missionBody: >-
-  ## Advancing the field of token engineering in a regenerative way.
+  ## Our goal is to become a Schelling Point for the token engineering community.
 
+  Our economic layer will fund projects that discover, develop and proliferate the best practices for engineering safe tokenized economies, while aligning our collective success with the individual benefit of token holders.
 
-  Stewarding the cultivation of resources to accelerate the creation of robustly engineered models, modular tools, standards and educational opportunities;
+  
+  Our social layer is even more important, as it will unite the token engineering field around the ethical principles, standards, tools and methodologies that emerge as this nascent field advances. 
+visionHeader: Vision
+visionBody: >-
+  ## Enable the creation of ethical, safe, resilient and diverse economic systems to benefit societies around the world.
+  
+valuesHeader: Values
+valuesBody: >-
+  ## Our Commons operates from a prosocial, human-centered perspective and prioritizes the advancement of token engineering over short-term profits.
+  
+  Integrity, curiosity, constructive inquiry, presence and gratitude are foundational for maintaining mutual respect within our growing community.
+  We encourage our members to be radically open source, non-hierarchical, transparent in their intentions and accountable for their actions.
 defiHeader: From DeFi to TeFi
 defiBody: "## A shift from building pieces and parts, toward using established
   engineering practices for the next generation of decentralized economies and
