@@ -123,7 +123,7 @@ export default class Index extends Component {
               <div className="flex justify-center">
                 <YellowButton
                   text="Go to Medium"
-                  url="https://medium.com/@tecommons"
+                  url="https://medium.com/token-engineering-commons"
                 />
               </div>
             </div>
