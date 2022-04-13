@@ -25,7 +25,7 @@ workgroups:
     wgImg: /images/Stewards.svg
     steward: Tamara
     stewardImg: /images/Tam.png
-    calendarText: "Weekly Sync: Wed., 7pm CET"
+    calendarText: "Weekly Sync: Tues., 7pm CET"
     calendarUrl: https://calendar.google.com/calendar/embed?src=5mkep1ad1j860k6g7i7fr8plq0%40group.calendar.google.com
   - name: Softgov
     description: TheSoftgov Working Group researches and applies best practices for
@@ -35,8 +35,8 @@ workgroups:
     wgImg: /images/Softgov.svg
     steward: Liviade
     stewardImg: /images/Liviade.png
-    calendarText: "Weekly Sync: Tues., 7pm CET"
-    calendarUrl: "#"
+    calendarText: "Weekly Sync: Wed., 7pm CET"
+    calendarUrl: https://calendar.google.com/calendar/embed?src=5mkep1ad1j860k6g7i7fr8plq0%40group.calendar.google.com
   - name: Legal
     description: The Legal Working Group aims to design and execute a coherent legal
       strategy for the TE Commons Hatch, bonding curve mints and burns and
@@ -77,16 +77,6 @@ workgroups:
     stewardImg: /images/JuankBell.png
     calendarText: "Weekly Sync: Thurs., 9pm CET"
     calendarUrl: https://calendar.google.com/calendar/embed?src=5mkep1ad1j860k6g7i7fr8plq0%40group.calendar.google.com
-  - name: Parameters
-    description: The Parameters Working Group deployed the dashboard for the Hatch
-      and is now working on the dashboard for the Commons Upgrade. The goal is
-      to get the community involved with as many technical decisions as possible
-      to get a healthy TE Commons off the ground!
-    wgImg: /images/Parameters.svg
-    steward: Griff
-    stewardImg: /images/Griff.png
-    calendarText: "Weekly Sync: Wed., 10pm CET"
-    calendarUrl: https://calendar.google.com/calendar/embed?src=5mkep1ad1j860k6g7i7fr8plq0%40group.calendar.google.com
   - name: Comms
     description: The Communications Working Group creates the narratives TEC
       presents to the world, develops communication platforms and promotes
@@ -95,14 +85,6 @@ workgroups:
     steward: Chuy
     stewardImg: /images/Chuy.png
     calendarText: "Weekly Sync: Tues., 6pm CET"
-    calendarUrl: https://calendar.google.com/calendar/embed?src=5mkep1ad1j860k6g7i7fr8plq0%40group.calendar.google.com
-  - name: Commons Swarm
-    description: The Commons Swarm Working Group implements TEC software and
-      coordinates with project partners at the Commons Stack and 1Hive.
-    wgImg: /images/Swarm.svg
-    steward: Griff
-    stewardImg: /images/Griff.png
-    calendarText: "Weekly Sync: Mon., 8pm CET"
     calendarUrl: https://calendar.google.com/calendar/embed?src=5mkep1ad1j860k6g7i7fr8plq0%40group.calendar.google.com
   - name: Labs
     description: The Labs is the central coordination sync point for the many TEC
@@ -122,6 +104,13 @@ workgroups:
       relationships with token holders and outreach to value aligned DAOs and
       organizations. "
     stewardImg: /images/Edu.png
+  - name: Rewards
+    wgImg: /images/Reward.svg
+    calendarText: "Weekly Sync: Wed., 8pm CET"
+    calendarUrl: https://calendar.google.com/calendar/embed?src=5mkep1ad1j860k6g7i7fr8plq0%40group.calendar.google.com
+    description: "The intention of this Working Group is to design, implement, maintain and continuously improve the TEC reward system. "
+    steward: Liviade
+    stewardImg: /images/Liviade.png
 ---
 
 Page content not used.
