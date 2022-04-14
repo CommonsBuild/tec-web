@@ -90,7 +90,7 @@ const Footer = () => {
             </div>
           </a>
           <a
-            href="https://token-engineering-commons.gitbook.io"
+            href="https://token-engineering-commons.gitbook.io/tec-handbook/"
             target="_blank"
             rel="noreferrer"
             className="text-white hover:text-white"
