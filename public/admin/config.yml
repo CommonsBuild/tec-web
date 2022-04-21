@@ -22,6 +22,8 @@ collections:
           - { label: "Commons", name: "commonsBody", widget: "markdown" }
           - { label: "Mission Header", name: "missionHeader", widget: "string" }
           - { label: "Mission Body", name: "missionBody", widget: "markdown" }
+          - { label: "Vision Header", name: "visionHeader", widget: "string" }
+          - { label: "Vision Body", name: "visionBody", widget: "markdown" }
           - { label: "DEFI Header", name: "defiHeader", widget: "string" }
           - { label: "DEFI Body", name: "defiBody", widget: "markdown" }
           - { label: "RAD Header", name: "radHeader", widget: "markdown" }
