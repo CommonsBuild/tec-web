@@ -33,6 +33,7 @@ const NewletterForm = () => {
   const [success, setSuccess] = React.useState(false);
   const [loading, setLoading] = React.useState(false);
   const [finished, setFinished] = React.useState(false);
+  const [errorMessage, setErrorMessage] = React.useState("🤖 Error");
 
   const handleEmailChange = (event) => {
     setEmail(event.target.value);
@@ -52,6 +53,8 @@ const NewletterForm = () => {
     fetch(url, requestOptions)
       .then((response) => {
         if (response.status !== 200) {
+          if (response.status === 409)
+            setErrorMessage("You are already signed");
           setSuccess(false);
           return;
         }
@@ -79,7 +82,7 @@ const NewletterForm = () => {
           value={email}
         />
         <button
-          className="p-4 px-8 font-semibold text-gray-800 uppercase bg-white"
+          className="p-4 px-4 font-semibold text-gray-800 uppercase bg-white"
           type="submit"
         >
           {loading ? (
@@ -88,7 +91,7 @@ const NewletterForm = () => {
             success ? (
               "✅ Done"
             ) : (
-              <span className="text-red-500">🤖 Error</span>
+              <span className="text-red-500">{ errorMessage }</span>
             )
           ) : (
             "Subscribe"
