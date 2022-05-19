@@ -111,6 +111,13 @@ workgroups:
     description: "The intention of this Working Group is to design, implement, maintain and continuously improve the TEC reward system. "
     steward: Liviade
     stewardImg: /images/Liviade.png
+  - name: Sampo
+    wgImg: /images/Sampo.svg
+    calendarText: "Weekly Sync: Tue., 10pm CET"
+    calendarUrl: https://calendar.google.com/calendar/embed?src=5mkep1ad1j860k6g7i7fr8plq0%40group.calendar.google.com
+    description: "Sampo is the Finnish mythic 'Horn of Plenty.' It symbolizes this working group's purpose: community wealth. We focus on financial management, income generation, and demand for the TEC token."
+    steward: Gideonro
+    stewardImg: /images/Gideonro.png
 ---
 
 Page content not used.
