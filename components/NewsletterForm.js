@@ -54,7 +54,7 @@ const NewletterForm = () => {
       .then((response) => {
         if (response.status !== 200) {
           if (response.status === 409)
-            setErrorMessage("You are already signed");
+            setErrorMessage("You already signed up!");
           setSuccess(false);
           return;
         }

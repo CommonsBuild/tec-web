@@ -11,6 +11,7 @@ const navItems = [
   ["Ecosystem", "/#ecosystem"],
   ["Forum", "https://forum.tecommons.org/"],
   ["Get Involved", "/join"],
+  ["Dune Analytics", "https://dune.com/tecommons/TECommons"],
 ];
 
 const Navigation = () => {
@@ -102,7 +103,7 @@ const Navigation = () => {
               className="hidden lg:block bai-jamjuree font-semibold uppercase semibold bg-tec-yellow focus:outline-none text-black text-base py-2.5 px-5"
               onClick={() => router.push("https://convert.tecommons.org/")}
             >
-              Get $TEC
+              MINT $TEC
             </button>
           </div>
         </div>
