@@ -42,7 +42,7 @@ export default class Index extends Component {
               </div>
               <YellowButton
                 text="Connect and Learn"
-                url="https://discord.gg/7WhT8ymgqD"
+                url="https://dsc.gg/tecommons"
               />
             </div>
           </div>
@@ -59,7 +59,7 @@ export default class Index extends Component {
               <div className="flex justify-center">
                 <YellowButton
                   text="Join our Discord"
-                  url="https://discord.gg/7WhT8ymgqD"
+                  url="https://dsc.gg/tecommons"
                 />
               </div>
             </div>
