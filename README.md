@@ -4,7 +4,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/98f84bec-ade9-412b-bcb4-9920ee05bf63/deploy-status)](https://app.netlify.com/sites/tec-web/deploys)
 
-The Token Engineering Commons website is live at https://tecommons.org. It is hosted on Netlify and integrates with Netlify CMS for easy content updates.
+The Token Engineering Commons website lives at https://tecommons.org. It is hosted on Netlify and integrates with Netlify CMS for easy content updates.
 
 Branches `main`and `develop` are auto published:
 
